@@ -1,0 +1,2580 @@
+﻿countries,count,states,countStates
+Dominican Republic,90,National,47
+Mexico,551,Federal,118
+Philippines,7509,Tarlac,16
+Greece,1303,Attica,1093
+Japan,403,Fukouka,4
+United States of America,2926,Illinois,112
+Uruguay,82,Montevideo,71
+Italy,1579,California,606
+East Germany (GDR),38,Wisconsin,39
+Ethiopia,200,Colorado,47
+Guatemala,2052,Lazio,582
+Venezuela,305,Michigan,46
+West Germany (FRG),541,Puerto Rico,248
+Switzerland,113,Berlin,216
+Jordan,117,Unknown,4340
+Spain,3251,New York,525
+Brazil,284,Washington,109
+Egypt,2534,New Jersey,47
+Argentina,820,Guatemala,901
+Lebanon,2486,Metropolitan Manila,199
+Ireland,311,Caracas,119
+Turkey,4391,Nebraska,24
+Paraguay,118,Mississippi,13
+Iran,697,Ohio,51
+United Kingdom,5335,Florida,164
+Colombia,8515,Oregon,67
+Bolivia,316,Massachusetts,57
+Nicaragua,1977,Bavaria,111
+Netherlands,136,Maryland,36
+Belgium,157,Louisiana,21
+Canada,102,Connecticut,17
+Australia,117,Hesse,166
+Pakistan,14847,Zurich,31
+Zambia,62,Arizona,42
+Sweden,137,Khalil,1
+Costa Rica,67,Metropolitian Manila,473
+South Yemen,2,Alabama,16
+Cambodia,260,New Mexico,24
+Israel,2080,Sao Paulo,76
+Poland,40,Alexandria,57
+Taiwan,53,Montana,7
+Panama,127,District of Columbia,85
+Kuwait,76,Pampanga,66
+West Bank,2512,Corrientes,2
+Austria,116,Buenos Aires,580
+Czech Republic,10,Beirut,928
+India,12853,Georgia,40
+France,2706,Texas,74
+South Vietnam,1,Dublin,146
+Brunei,6,Rio Grande do Sul,11
+Zaire,50,Kansas,14
+People's Republic of the Congo,4,Missouri,40
+Portugal,140,Amman,79
+Algeria,2749,Istanbul,1066
+El Salvador,5320,Pennsylvania,45
+Thailand,4032,Minnesota,25
+Haiti,218,Iowa,24
+Sudan,1009,Indiana,23
+Morocco,37,Asuncion,32
+Northern Cyprus,132,North Carolina,34
+Myanmar,587,Oklahoma,15
+Afghanistan,14509,Idaho,14
+Peru,6108,Geneva,34
+Chile,2410,Utah,22
+Honduras,323,Capiz,36
+Slovakia,203,Lara,12
+Ecuador,234,Tehran,286
+New Zealand,20,Rio de Janeiro,96
+Malaysia,106,Northern Ireland,4583
+Singapore,7,Caldas,66
+Botswana,10,Managua,257
+Jamaica,36,Pernambuco,3
+Chad,103,Navarre,203
+North Yemen,6,North Holland,49
+Andorra,1,Brussels,114
+Syria,2438,Tucuman,13
+South Korea,39,Santa Fe,38
+United Arab Emirates,22,Ankara,299
+South Africa,2057,Tennessee,25
+Kenya,734,Cordoba,219
+Iraq,26057,England,707
+Somalia,4674,Izmir,128
+United Republic of Tanzania,62,Quebec,26
+Sri Lanka,3029,West Virginia,2
+Namibia,151,Baden-Wurttemberg,117
+The Bahamas,5,Victoria,35
+Nigeria,4556,Sindh,3237
+Barbados,3,Gipuzcoa,104
+Trinidad and Tobago,23,Burgos,1
+Bangladesh,1682,Malatya,17
+Angola,499,Amhara,29
+Mauritania,19,Gilan,10
+Saudi Arabia,463,Vastra Gotaland,32
+Djibouti,22,San Jose,52
+Indonesia,805,Hawaii,4
+Malta,23,South Holland,49
+Rhodesia,83,Santa Cruz de Tenerife,13
+Soviet Union,78,Lombardy,281
+Denmark,43,Esfahan,13
+Western Sahara,7,Madrid,434
+Guyana,26,Barcelona,70
+Mozambique,430,Stockholm,49
+Tunisia,130,La Paz,317
+Uganda,404,Nevada,19
+Norway,19,Ionian Islands,3
+Lesotho,29,Khuzestan,107
+Gabon,8,Valencia,101
+Libya,2417,Adan,491
+Bahrain,208,Biscay,100
+Hong Kong,26,Rhode Island,2
+Senegal,121,Lerida,1
+Zimbabwe,103,Vermont,5
+Guinea,27,Phnom Penh,56
+Grenada,5,Jerusalem,507
+New Hebrides,1,Opole,1
+Belize,8,Penghu,1
+Guadeloupe,56,New South Wales,47
+Martinique,12,Cairo,240
+Vatican City,1,Fars,23
+Albania,80,Panama,98
+Central African Republic,329,Gaza Strip,832
+Seychelles,2,Vienna,76
+Dominica,3,North Brabant,3
+Qatar,7,Hamburg,83
+Bulgaria,53,New Hampshire,10
+Suriname,66,Delhi,210
+Swaziland,16,Ordu,8
+Luxembourg,16,Isabela,75
+Iceland,4,Ontario,45
+French Guiana,7,Paris,340
+Falkland Islands,1,Central,945
+Burkina Faso,122,Aragua,8
+New Caledonia,50,Pleiku,1
+Romania,6,Bogota,1007
+Niger,173,Friuli-Venezia Giulia,16
+Nepal,1314,Queensland,10
+Togo,48,Ile-de-France,315
+Finland,21,Cavan,7
+Fiji,17,Kinshasa,41
+Ghana,21,Brazzaville,24
+Maldives,24,Lisbon,80
+Mauritius,2,North Rhine-Westphalia,257
+Hungary,46,Algiers,504
+Laos,27,Virginia,42
+Papua New Guinea,89,Zaragoza,3
+China,253,San Salvador,1925
+Liberia,34,Nuevo Leon,11
+Republic of the Congo,36,Antioquia,1914
+Mali,732,Bangkok,232
+Germany,758,Donegal,17
+Yemen,3673,Santiago,4
+Rwanda,164,Rhineland-Palatinate,35
+Sierra Leone,101,Tuscany,84
+Cameroon,583,Ouest,174
+Cuba,30,Eritrea,1
+Croatia,57,East Azerbaijan,7
+Georgia,218,South Dakota,9
+Azerbaijan,50,Khartoum,40
+Madagascar,27,Grand Casablanca,5
+Lithuania,9,Nicosia,75
+Burundi,623,Liguria,42
+Ukraine,1745,South,505
+Moldova,21,An Nabatiyah,222
+Armenia,25,Kanagawa,30
+Russia,2218,Kabul,983
+Ivory Coast,76,Jalisco,49
+Kazakhstan,27,Trujillo,3
+Antigua and Barbuda,1,Crete,34
+Bosnia-Herzegovina,161,Risaralda,93
+Equatorial Guinea,2,Lima,2615
+Tajikistan,191,Chaco,4
+Malawi,7,Santiago Metropolitan,1651
+Uzbekistan,21,Francisco Morazan,174
+Latvia,17,Essonne,1
+Estonia,16,Serbia,22
+Vietnam,13,Schleswig-Holstein,26
+Comoros,7,Guayas,62
+Benin,8,Canterbury,4
+Slovak Republic,19,Tokyo,196
+Macedonia,118,Emilia-Romagna,68
+Wallis and Futuna,1,Lusaka,32
+Belarus,13,Lower Saxony,68
+Czech Republic,32,Hauts-de-Seine,2
+Slovenia,6,Kuala Lumpur,18
+Gambia,3,Zulia,18
+North Korea,1,Doubs,2
+Eritrea,10,Bouches-du-Rhone,9
+St. Kitts and Nevis,2,Piedmont,151
+French Polynesia,3,Cochabamba,29
+Macau,33,Mendoza,18
+Kyrgyzstan,37,Saone-et-Loire,1
+Vanuatu,2,Seine-Saint-Denis,4
+Democratic Republic of the Congo,938,Singapore,7
+Kosovo,198,Santa Ana,258
+Solomon Islands,4,South-East,8
+East Timor,10,Asimah,43
+St. Lucia,1,Finistere,3
+Guinea Bissau,9,Haute-Garonne,16
+Montenegro,8,Oaxaca,42
+International,1,Monaghan,13
+Turkmenistan,2,Guerrero,59
+Serbia-Montenegro,11,Sonora,8
+Bhutan,6,Corsica,1345
+Republic of Serbia,25,Maekel,9
+South Sudan,264,Kingston Parish,25
+Bosnia and Herzegovina,89,Northern,1218
+,,Zambales,22
+,,Tibesti,7
+,,Pattani,1190
+,,Amanat Al Asimah,496
+,,Yucatan,3
+,,Wallonia,19
+,,Flanders,24
+,,Bern,19
+,,Macedonia,8
+,,Hautes-Pyrenees,3
+,,Hyogo,5
+,,Gard,2
+,,Aleppo,780
+,,Seoul,18
+,,Salta,4
+,,Arequipa,105
+,,Campania,55
+,,Pichincha,100
+,,Morelos,10
+,,Dubai,10
+,,Lugo,1
+,,Bremen,23
+,,North-West Frontier Province,866
+,,Tel Aviv,208
+,,Gauteng,876
+,,Punjab,1816
+,,Vaud,5
+,,Razavi Khorasan,24
+,,Bihar,728
+,,State of Mexico,12
+,,Nairobi,89
+,,Cadiz,1
+,,Finisere,3
+,,Cauca,459
+,,Limassol,27
+,,Meta,191
+,,Nineveh,3399
+,,Rhone,8
+,,Galicia,88
+,,Banaadir,1809
+,,Boyaca,129
+,,Guipuzcoa,5
+,,Valladolid,4
+,,Coast,28
+,,Mount Lebanon,139
+,,Haut-Rhin,1
+,,Pyrenees-Atlantiques,32
+,,Alpes-Maritimes,13
+,,Aichi,14
+,,Seine-Maritime,1
+,,Seville,7
+,,Louth,30
+,,Cork,20
+,,Pontevedra,3
+,,Kildare,14
+,,Okinawa,7
+,,Zamboanga del Sur,261
+,,Nord,33
+,,Alava,7
+,,Oshana,25
+,,Casanare,72
+,,Ille-et-Vilaine,8
+,,Scotland,24
+,,Salamanca,1
+,,Maine,4
+,,Formosa,3
+,,Chiquimula,23
+,,Basilan,360
+,,Drenthe,4
+,,Calabria,18
+,,Anzoategui,7
+,,Bimini,1
+,,Lagos,78
+,,Otjozondjupa,4
+,,Bas-Rhin,5
+,,Ifugao,16
+,,Hokkaido,7
+,,Kentucky,6
+,,Porto,9
+,,Atlantico,84
+,,Misamis Oriental,66
+,,Veneto,77
+,,Apulia,14
+,,Sardinia,62
+,,Khomas,37
+,,Trentino-South Tyrol,60
+,,West Bank,1669
+,,Tigray,6
+,,Valle del Cauca,584
+,,Charente,1
+,,Davao del Sur,258
+,,Santander,472
+,,Las Palmas,16
+,,Sinaloa,8
+,,Sonsonate,56
+,,Puy-de-Dome,2
+,,Saint Michael,1
+,,Umbria,8
+,,A Coruna,5
+,,Isere,2
+,,Cantabria,46
+,,Girona,2
+,,San Miguel,336
+,,Herault,8
+,,Port of Spain,10
+,,Corse-du-Sud,54
+,,Sicily,26
+,,Laoighis,2
+,,Addis Ababa,47
+,,Usulutan,398
+,,Christ Church,1
+,,Islamabad Capital Territory,159
+,,Marche,13
+,,Taipei,33
+,,Kirklareli,1
+,,Balikesir,5
+,,Gironde,1
+,,Rangoon,8
+,,Transvaal,13
+,,Chihuahua,17
+,,Baghdad,7832
+,,Basel-Stadt,3
+,,Chittagong,397
+,,Cabinda,30
+,,Caqueta,204
+,,Konya,9
+,,Central Macedonia,120
+,,Leon,103
+,,Adana,100
+,,Osmaniye,14
+,,Diyarbakir,375
+,,Zinguldak,4
+,,Gaziantep,47
+,,Bursa,14
+,,Azores,11
+,,Antalya,31
+,,Aydin,6
+,,Manisa,10
+,,Somali,33
+,,Katanga,31
+,,Alajuela,5
+,,Tiris Zemmour,6
+,,Mersin,32
+,,Erzincan,17
+,,Songkhla,132
+,,Ourense,2
+,,Toledo,2
+,,Kocaeli,8
+,,Seine-et-Marne,1
+,,Slovenia,1
+,,Tarragona,2
+,,Arica and Parinacota,6
+,,Sivas,14
+,,Cotes-d'Armor,1
+,,San Luis Potosi,2
+,,KwaZulu-Natal,534
+,,Samsun,13
+,,Southern,1046
+,,Hatay,57
+,,Carinthia,6
+,,Malaga,1
+,,Sanliurfa,69
+,,Tokat,14
+,,Kahramanmaras,21
+,,Erzurum,25
+,,Bolivar,184
+,,Evora,13
+,,Santarem,2
+,,Setubal,7
+,,Beja,10
+,,Tolima,149
+,,Utrecht,4
+,,Yala,915
+,,Maharashtra,325
+,,Haute-Corse,30
+,,Nueva Segovia,209
+,,Balearic Islands,10
+,,Rio San Juan,74
+,,Abruzzo,6
+,,Masaya,27
+,,Cundinamarca,158
+,,Mayenne,1
+,,Abu Dhabi,6
+,,Segovia,1
+,,Dikhil,3
+,,North Sumatra,31
+,,Huila,245
+,,Moselle,2
+,,Penang,12
+,,Jura,1
+,,Putumayo,157
+,,Quindio,28
+,,Murcia,8
+,,Yonne,1
+,,Aude,1
+,,Kyoto,11
+,,Mashonaland South,24
+,,Russia,17
+,,Basilicata,2
+,,Maguindanao,775
+,,Chinandega,105
+,,Ibaraki,9
+,,Matagalpa,153
+,,Granada,18
+,,Palencia,1
+,,Esteli,80
+,,Alaska,1
+,,Carabobo,10
+,,Sucre,74
+,,Chiba,50
+,,Carazo,37
+,,Cabanas,182
+,,San Vicente,351
+,,Asturias,26
+,,North West,31
+,,Eastern Cape,133
+,,Haifa,92
+,,Cuscatlan,225
+,,Chalatenango,370
+,,Parana,14
+,,Tamaulipas,20
+,,San Pedro de Macoris,3
+,,Veracruz,18
+,,Papua,107
+,,Saitama,9
+,,Manicaland,16
+,,Cesar,247
+,,Qom,9
+,,Norte de Santander,491
+,,La Guajira,83
+,,Tribal Trust Lands,1
+,,Escuintla,89
+,,Doha,5
+,,Magdalena,91
+,,Matabeleland South,18
+,,Limerick,18
+,,North,275
+,,Osaka,17
+,,Midland,1
+,,Yvelines,2
+,,Mashonaland West,1
+,,Huehuetenango,73
+,,Aosta,1
+,,Sulu,261
+,,Ayacucho,1043
+,,Soria,2
+,,Sa Kaeo,3
+,,Udon Thani,6
+,,Mashonland,2
+,,Lanao del Sur,168
+,,Quetzaltenango,64
+,,North Cotabato,577
+,,Minas Gerais,16
+,,Salisbury,18
+,,Davao Oriental,60
+,,Kalinga,25
+,,Davao del Norte,86
+,,North Sinai,1321
+,,Surat Thani,18
+,,Totonicapan,13
+,,Daraa,62
+,,Basque Country,1446
+,,Monagas,5
+,,La Libertad,282
+,,Kars,29
+,,Omusati,7
+,,Trang,8
+,,Jakarta,88
+,,Bingol,91
+,,San Marcos,114
+,,Chontales,68
+,,Huambo,41
+,,Nueva Ecija,91
+,,Rivas,44
+,,Ahuachapan,37
+,,Antofagasta,10
+,,Barima-Waini,1
+,,Miranda,12
+,,Maputo,93
+,,Andalusia,119
+,,Delaware,5
+,,Sultan Kudarat,129
+,,Mardin,246
+,,Guelmim-Es Semara,1
+,,Chubut,6
+,,Sofala,94
+,,Narino,196
+,,Ica,49
+,,Erongo,6
+,,Gwelo,1
+,,Shan,134
+,,Australian Capital Territory,10
+,,Canary Islands,5
+,,Madriz,58
+,,Tunis,18
+,,Umtali,1
+,,Assam,1175
+,,Manipur,1146
+,,Capital,125
+,,Kerman,5
+,,Catalonia,236
+,,Quiche,219
+,,Bulawayo,12
+,,Meknes-Tafilalet,2
+,,Alta Verapaz,63
+,,Oran,38
+,,Choco,92
+,,Eastern,1317
+,,Chiriqui,8
+,,Puebla,6
+,,Ohangwena,6
+,,Melilla,3
+,,Qazvin,3
+,,Aargau,4
+,,Valparaiso,288
+,,Oslo,17
+,,West Azerbaijan,23
+,,Ceuta,2
+,,Mon,26
+,,Lanao del Norte,101
+,,Oshikoto,19
+,,Chin,2
+,,Tawi Tawi,9
+,,Dhaka,692
+,,Western Australia,10
+,,Var,1
+,,Inhambane,7
+,,Krakow,5
+,,Matabeleland,3
+,,Manica,31
+,,Krabi,3
+,,Chiang Mai,27
+,,Nakhon Si Thammarat,10
+,,Kanchanaburi,1
+,,Phra Nakhon Si Ayutthaya,4
+,,Suchitepequez,55
+,,Zamboanga del Norte,84
+,,Maseru,17
+,,Cortes,60
+,,Jinotega,178
+,,Western Cape,200
+,,Castile and Leon,37
+,,South Caribbean Coast Autonomous Region,113
+,,Zacapa,10
+,,Luanda,73
+,,Zelaya,44
+,,Hamah,130
+,,Kermanshah,22
+,,Barinas,5
+,,Northern Samar,40
+,,Dar es Salaam,9
+,,Mizoram,30
+,,Sistan and Balochistan,31
+,,Basra,309
+,,Mashonaland East,7
+,,Estuaire,7
+,,Bio Bio,161
+,,Aragon,33
+,,Rif Dimashq,81
+,,Damascus,444
+,,Val-de-Marne,2
+,,Burdur,1
+,,Ilam,7
+,,Golan Heights,30
+,,Demerara-Mahaica,23
+,,Kordestan,28
+,,Perak,4
+,,Denizli,2
+,,Waterford,3
+,,Homs,226
+,,Andhra Pradesh,257
+,,Coquimbo,32
+,,Zanjan,1
+,,Latakia,10
+,,Tripoli,420
+,,Jharkhand,943
+,,Sligo,6
+,,Ghazni,928
+,,Tunceli,114
+,,Tamil Nadu,172
+,,Herat,720
+,,Choluteca,7
+,,Bitlis,62
+,,Espirito Santo,4
+,,Coimbra,1
+,,La Union,103
+,,Santa Cruz,41
+,,Murqub,24
+,,Adiyaman,19
+,,Apure,29
+,,Solola,65
+,,Peten,56
+,,Solothurn,2
+,,Mpumalanga,48
+,,Makkah,28
+,,Kayseri,12
+,,Uttar Pradesh,205
+,,Oruro,13
+,,Kaduna,184
+,,Espaillat,1
+,,Gafsa,2
+,,Orange Free State,34
+,,Nong Khai,1
+,,Hong Kong,29
+,,Natal,25
+,,Midlands,5
+,,El Progreso,11
+,,Caaguazu,1
+,,Misamis Occidental,24
+,,Baja Verapaz,21
+,,Bophutatswana,7
+,,Morazán,32
+,,Morazan,273
+,,Dakar,6
+,,At Tamim,125
+,,Kamphaeng Phet,3
+,,West Bengal,668
+,,Arauca,383
+,,Lorestan,5
+,,Golestan,3
+,,Cuscatlán,8
+,,Izabal,22
+,,Beqaa,293
+,,Usak,1
+,,Narathiwat,1274
+,,Elazig,32
+,,Chaiyaphum,2
+,,Jahra,8
+,,Jutiapa,20
+,,Trabzon,18
+,,Algarve,1
+,,Conakry,12
+,,Chimaltenango,66
+,,Boaco,29
+,,Amasya,2
+,,Al Hasakah,99
+,,Nevsehir,1
+,,Tarija,5
+,,Saint George,4
+,,Potosi,14
+,,Offaly,5
+,,Shefa,3
+,,Belize,4
+,,Siirt,95
+,,Ismailia,24
+,,Wales,21
+,,La Rioja,23
+,,Benghazi,900
+,,Hamadan,4
+,,Sacatepequez,22
+,,El Paraiso,11
+,,Ancash,189
+,,Junin,504
+,,Retahuleu,4
+,,Cusco,146
+,,Benguet,25
+,,Huancavelica,197
+,,Santa Rosa,15
+,,Pointe-a-Pitre,32
+,,Samar,48
+,,Cavite,30
+,,Cabrican,7
+,,Atacama,5
+,,Lambayeque,64
+,,Wexford,4
+,,Pasco,128
+,,Guainia,5
+,,Saint Patrick,2
+,,Central Jutland,2
+,,Callao,62
+,,Santa Barbara,3
+,,Puno,116
+,,Loreto,28
+,,South Cotabato,140
+,,Valle,3
+,,Sulaymaniyah,68
+,,Fort-de-France,9
+,,North Caribbean Coast Autonomous Region,84
+,,Usulután,69
+,,Idlib,219
+,,Masvingo,4
+,,New Providence,4
+,,Cajamarca,45
+,,Nagaland,126
+,,El Peten,22
+,,Moquegua,9
+,,Limpopo,39
+,,Basse-Terre,6
+,,Vatican City,1
+,,Tirana,27
+,,Mato Grosso do Sul,5
+,,Kirkuk,1953
+,,Retalhuleu,7
+,,Eastern Samar,19
+,,Guna Yala,4
+,,Bangui,86
+,,Tarapaca,7
+,,Kohgiluyeh and Buyer Ahmad,1
+,,Mazandaran,6
+,,Warsaw,17
+,,Brandenburg,31
+,,Sucumbios,9
+,,Yazd,2
+,,Tacna,14
+,,Gujarat,89
+,,Los Rios,17
+,,Chiang Rai,3
+,,Croatia,13
+,,Asyut,129
+,,Chandigarh,47
+,,La Unión,7
+,,Amazonas,25
+,,Castelo Branco,2
+,,Loire-Atlantique,1
+,,Lot-et-Garonne,1
+,,Lempira,11
+,,Mont Buxton,2
+,,Apurimac,94
+,,Western,688
+,,Sirnak,357
+,,Huanuco,139
+,,Aquitaine,119
+,,Atlantico Norte,10
+,,Rhone-Alpes,41
+,,Cartago,1
+,,Provence-Alpes-Cote d'Azur,129
+,,Abra,44
+,,Chiapas,71
+,,Busan,3
+,,Khulna,225
+,,Limousin,4
+,,Quneitra,24
+,,Cabañas,25
+,,Chimborazo,3
+,,Languedoc-Roussillon,24
+,,Midi-Pyrenees,26
+,,Matabeleland North,8
+,,Salzburg,8
+,,Limon,4
+,,Rajasthan,47
+,,Burgas,4
+,,Giza,121
+,,Paramaribo,16
+,,Cuanza Sul,12
+,,Manzini,5
+,,Zambezia,22
+,,Bukidnon,136
+,,Piura,27
+,,Neuquén,6
+,,Tete,17
+,,Cuscaltan,1
+,,North Dakota,7
+,,Benguela,31
+,,Tanintharyi,6
+,,Gaza,27
+,,Tachira,16
+,,Luxembourg,10
+,,Guaviare,51
+,,Berea,2
+,,Quthing,2
+,,Leribe,3
+,,Chhattisgarh,1131
+,,Yoro,7
+,,Eastern Macedonia and Thrace,13
+,,Faro,2
+,,Capital Region,1
+,,Chuquisaca,11
+,,Saint Laurent Du Maroni,2
+,,Cayenne,5
+,,O'Higgins,29
+,,Butha-Buthe,1
+,,Malanje,20
+,,Maule,39
+,,East Falkland,1
+,,Bahia,8
+,,Atlantida,8
+,,Ciskei,5
+,,Lunda Norte,19
+,,Olancho,13
+,,San Martin,98
+,,Catamarca,2
+,,Para,6
+,,Daegu,2
+,,Zarqa,1
+,,Michoacan,12
+,,Yamaguchi,1
+,,Arkansas,5
+,,Falcon,3
+,,Atlantico Sur,3
+,,Hormozgan,4
+,,Al Wahdah,7
+,,Pointe-à-Pitre,1
+,,Leiria,1
+,,Ahmadi,8
+,,Leitrim,6
+,,Tripura,118
+,,West Kordofan,19
+,,Haryana,52
+,,Napo,15
+,,N'Djamena,15
+,,Los Lagos,10
+,,Alsace,13
+,,Wellington,12
+,,Le Marin,2
+,,Magallanes & Chilean Antarctica,5
+,,Camarines Sur,84
+,,Negros Occidental,140
+,,Central Equatoria,25
+,,Jammu and Kashmir,2864
+,,Federal District,13
+,,Himachal Pradesh,25
+,,Jabal al Akhdar,1
+,,Colon,8
+,,Laayoune-Boujdour-Sakia El Hamra,6
+,,Magdeburg,1
+,,Kavango,20
+,,Kosovo,186
+,,Araucania,91
+,,Centre,15
+,,Woqooyi Galbeed,19
+,,Guanacaste,3
+,,Federally Administered Tribal Areas,2424
+,,Karnataka,75
+,,Hakkari,318
+,,Varna,2
+,,Larnaca,12
+,,Cuanza Norte,79
+,,South Eastern,14
+,,Surigao del Sur,112
+,,Sud,28
+,,Bengo,57
+,,Davao,2
+,,Bucharest,6
+,,Hhohho,7
+,,East Java,59
+,,Cebu,52
+,,Uige,19
+,,Aguasan Del Sur,8
+,,Saxony-Anhalt,27
+,,Chiaha,1
+,,Riyadh,47
+,,Valais,1
+,,Center,2
+,,San Juan,9
+,,Ilocos Norte,41
+,,Esmeraldas,13
+,,Manabi,4
+,,North Central,174
+,,Rabat-Sale-Zemmour-Zaer,3
+,,Tahoua,9
+,,Agusan del Norte,104
+,,Brittany,23
+,,Apayao,7
+,,Far-Western,51
+,,North Western,85
+,,Cagayan,71
+,,Bataan,61
+,,Vichada,19
+,,Saarland,14
+,,Ucayali,25
+,,Caprivi,8
+,,Iloilo,76
+,,Zamboanga Sibugay,175
+,,Kalinga Apayao,3
+,,Entre Rios,5
+,,Maritime,32
+,,Bulacan,36
+,,Nueva Vizcaya,11
+,,Groningen,2
+,,Leyte,27
+,,Norhtern,2
+,,Uva,79
+,,Sabah,43
+,,Oriental Mindoro,18
+,,Camiguin,1
+,,Negros Oriental,78
+,,Tyrol,4
+,,Yaracuy,2
+,,Jujuy,5
+,,North-Western,9
+,,San Luis,3
+,,British Columbia,7
+,,Bie,29
+,,Eastern Equatoria,27
+,,Balochistan,3911
+,,Uusimaa,7
+,,Azuay,3
+,,Sabaragamuwa,42
+,,Marowijne,25
+,,KwaNdebele,1
+,,Northern Cape,15
+,,Maldonado,3
+,,Extremadura,2
+,,Acre,3
+,,Castile-La Mancha,12
+,,Western Region,1
+,,Batman,59
+,,Guarico,3
+,,Upper Nile,36
+,,Ocotepeque,1
+,,Djibouti,13
+,,Commewyne,1
+,,Jalapa,4
+,,Quezon,70
+,,Brokopondo,12
+,,Ba,6
+,,Harare,25
+,,Merida,5
+,,Dihok,31
+,,Ilocos Sur,34
+,,Tumbes,3
+,,Agri,55
+,,Khyber Pakhtunkhwa,3251
+,,Guimaras,2
+,,Cuando Cubango,7
+,,Greater Accra,7
+,,Karas,1
+,,Batangas,97
+,,Albay,71
+,,Rewa,4
+,,Sousse,9
+,,Monastir,4
+,,Comayagua,5
+,,Misiones,6
+,,Uttaranchal,24
+,,Madhya Pradesh,77
+,,Saladin,3631
+,,Barisal,36
+,,Gumushane,6
+,,Monsenor Nouel,2
+,,Orissa,215
+,,Pangasinan,51
+,,Zamora-Chinchipe,1
+,,Transkei,3
+,,Kachin,51
+,,Cabo Delgado,77
+,,Sennar,2
+,,Biliran,3
+,,Occidental Mindoro,18
+,,Southern Leyte,1
+,,North Eastern,156
+,,Rajshahi,150
+,,Corum,2
+,,Eastern Province,9
+,,Mountain Province,20
+,,Chonburi,2
+,,Faryab,662
+,,Kayin,46
+,,Vaupes,6
+,,Limburg,5
+,,Sylhet,53
+,,Loyalty Islands Province,2
+,,Sorsogon,113
+,,Sakarya,3
+,,Paraiba,1
+,,Kilis,70
+,,Gwangju,6
+,,Western Greece,7
+,,Togdheer,5
+,,Van,126
+,,Laguna,42
+,,Nangarhar,1105
+,,Rangpur,59
+,,Sohag,13
+,,Mandalay,22
+,,Orientale,138
+,,Puntarenas,2
+,,Franche-Comte,2
+,,Bohol,16
+,,Male,14
+,,Plaines Wilhems,1
+,,Tabasco,11
+,,Kayah,7
+,,Nampula,25
+,,Overijssel,8
+,,South Australia,4
+,,Sipaliwini,4
+,,Ziguinchor,63
+,,Aysen,3
+,,East Timor,45
+,,Ishikawa,1
+,,Minya,191
+,,Barahona,2
+,,Severocesky,1
+,,Yangon,61
+,,Budapest,40
+,,Vientiane,15
+,,La Pampa,2
+,,Savanne,1
+,,Masbate,147
+,,Camarines Norte,29
+,,Prague,22
+,,Nassa,3
+,,Battambang,24
+,,Aklan,6
+,,Faiyum,61
+,,Jonglei,48
+,,Zhejiang,3
+,,South Aegean,7
+,,Jihomoravsky,2
+,,Pays-de-la-Loire,5
+,,Central Greece,5
+,,Kerala,104
+,,Rift Valley,23
+,,Hermanas Mirabal,5
+,,Bougainville,51
+,,Gyeonggi,3
+,,Tungurahua,2
+,,Shanghai,7
+,,Awdal,2
+,,Western Highlands,3
+,,Igdir,21
+,,Nakhon Ratchasima,4
+,,Lampang,2
+,,Kandahar,1218
+,,Al Sharqia,62
+,,Kunene,1
+,,Bartin,1
+,,Eskisehir,2
+,,Armenia,10
+,,Odisha,457
+,,Coronie,1
+,,Morobe,6
+,,North Solomons,9
+,,North Aegean,4
+,,Surigao del Norte,58
+,,Azerbaijan,24
+,,Zinder,6
+,,Aceh,183
+,,Saramacca,1
+,,South Kordofan,65
+,,Kastamonu,3
+,,Beijing,23
+,,Venda,6
+,,Loja,3
+,,Nara,13
+,,Blida,182
+,,Nagasaki,3
+,,Moxico,22
+,,Azad Kashmir,30
+,,Tak,23
+,,Uppsala,2
+,,Meath,3
+,,Nimba,4
+,,Ubon Ratchathani,1
+,,Mashonaland Central,4
+,,Kgatleng,1
+,,Pointe Noire,1
+,,Ostergotland,1
+,,Vastmanland,2
+,,Qena,30
+,,Gdansk,4
+,,Kygyzstan,2
+,,Gazankulu,1
+,,Upper Austria,8
+,,Kinkkale,1
+,,Zaire,6
+,,Gao,146
+,,Palawan,32
+,,Akita,1
+,,Red Sea,14
+,,Imbabura,3
+,,Antique,5
+,,Artvin,4
+,,Ardahan,5
+,,Ukraine,8
+,,Famagusta,6
+,,Kyrenia,1
+,,Rondonia,3
+,,Grad Sofia,24
+,,Tochigi,2
+,,Paphos,7
+,,Plovdiv,4
+,,Surin,3
+,,West Sepik,2
+,,Miyagi,1
+,,Yamanashi,3
+,,Iwate,1
+,,Mie,1
+,,Sichuan,9
+,,Kunduz,578
+,,Constantine,58
+,,Goias,5
+,,Ayeyarwady,2
+,,Mastaganem,1
+,,Ruhengeri,16
+,,Agadez,27
+,,Saxony,60
+,,Estonia,5
+,,Niamey,8
+,,Latvia,7
+,,National Capital District,5
+,,Cayo,4
+,,Katsina,23
+,,Prachinburi,2
+,,Sagaing,7
+,,Incheon,3
+,,Northwest,2
+,,Tlemcen,35
+,,Lower Juba,363
+,,Vojvodina,5
+,,Timbuktu,157
+,,Northern Bahr el Ghazal,1
+,,Mopti,151
+,,Beni Suef,29
+,,Lithuania,6
+,,Quena,1
+,,Tunapuna-Piarco,3
+,,Peloponnese,5
+,,Tillaberi,33
+,,Souk Ahras,2
+,,Havana,26
+,,Bouira,120
+,,Valverde,8
+,,Paktia,299
+,,Osijek-Baranja,5
+,,Adamawa,252
+,,Pozega-Slavonia,3
+,,Sisak-Moslavina,9
+,,Split-Dalmatia,4
+,,Zadar,4
+,,Rizal,22
+,,Lika-Senj,1
+,,Marib,265
+,,Zagreb,9
+,,San Cristobal,4
+,,Helmand,1325
+,,Bosnia-Herzegovina,10
+,,Dagestan,652
+,,Tbilisi,41
+,,Aurora,10
+,,Vychodocesky,1
+,,Brod-Posavina,1
+,,Karlovac,2
+,,Zamfara,48
+,,Santo Domingo,1
+,,Byumba,4
+,,Shida Kartli,32
+,,Tropoje,1
+,,Ordubad,1
+,,Gilgit-Baltistan,65
+,,Mecklenburg-West Pomerania,43
+,,Roraima,1
+,,Alagoas,3
+,,Kano,156
+,,Ciudad Real,1
+,,Mus,36
+,,Antisiranana,3
+,,Thuringia,23
+,,Grand'Anse,3
+,,Oriental,3
+,,Vilnius,7
+,,Artibonite,12
+,,Rakhine,144
+,,Montserrado,13
+,,Santiago del Estero,1
+,,Vukovar-Srijem,7
+,,Madre de Dios,1
+,,Khojavend,2
+,,Bujumbura Mairie,278
+,,El Oued,9
+,,Baku,25
+,,Cibitoke,32
+,,Bubanza,33
+,,Kharkiv,55
+,,Skane,31
+,,Kiev,67
+,,Tipaza,46
+,,Biskra,12
+,,Transnistria,6
+,,Meghri,1
+,,Kampong Cham,15
+,,Damietta,15
+,,Kyustendil,1
+,,Hsinchu,2
+,,Bari,160
+,,Centrale,3
+,,Chechnya,566
+,,Plateaux,7
+,,Kampong Thom,7
+,,Lower Austria,4
+,,Tadjourah,3
+,,Badakhshan,209
+,,Shusha,2
+,,Lofa,5
+,,Lagunes,22
+,,Antananarivo,15
+,,Laghouat,28
+,,South Kazakhstan,1
+,,Guangdong,21
+,,Gelderland,7
+,,Batna,40
+,,Chon Buri,3
+,,Xinjiang,92
+,,Chachoengsao,3
+,,Nyanza,6
+,,Boumerdes,154
+,,Saint Petersburg,22
+,,Sidi Bel Abbes,47
+,,Akwa Ibom,37
+,,Agusan del Sur,105
+,,Nord-Pas-de-Calais,5
+,,Samegrelo-Zemo Svaneti,21
+,,Abkhazia,70
+,,West Panama,1
+,,Sarangani,54
+,,Edo,48
+,,Kigali,70
+,,Saint Joseph,1
+,,Ticino,4
+,,Tartar,1
+,,Kalbajar,1
+,,Khojaly,1
+,,Saint John Parish,1
+,,Artik,1
+,,Kvemo Kartli,6
+,,Gisenyi,21
+,,Taraba,111
+,,Moscow,169
+,,Iferouane,2
+,,Medea,87
+,,Shkoder,5
+,,Stavropol,27
+,,Khankendi,3
+,,Grand Cape Mount,3
+,,Dnipropetrovsk,23
+,,Edirne,1
+,,Hadramawt,360
+,,Ghor,195
+,,San Juan-Laventille,2
+,,Sanaag,9
+,,Republika Srpska,62
+,,Bender,5
+,,Anenii Noi,1
+,,Johor,2
+,,Wardak,325
+,,Marrakesh-Tensift-El Haouz,1
+,,Kaohsiung,6
+,,East,13
+,,New Taipei,2
+,,Federation of Bosnia and Herzegovina,89
+,,Brcko,11
+,,Gitarama,8
+,,Lavalleja,1
+,,Dushanbe,115
+,,Setif,14
+,,Tashkent,17
+,,Jurmala,1
+,,Garkalne,1
+,,South Jeolla,1
+,,Ondo,24
+,,Taurage,1
+,,Yunnan,9
+,,Bomi,2
+,,Markazi,1
+,,Kurdamir,1
+,,Kutahya,1
+,,Champasak,2
+,,Belait,1
+,,Picardy,3
+,,Mostaganem,7
+,,Guelma,3
+,,Luxor,6
+,,Ain Defla,73
+,,Bejaia,20
+,,Annaba,20
+,,Madang,1
+,,Banteay Meanchey,10
+,,Gyumri,1
+,,Stung Treng,2
+,,Takeo,1
+,,Causeni,2
+,,Es Semara,3
+,,Sainyabuli,1
+,,Pailin,4
+,,Arbil,116
+,,Harju,6
+,,Diyala,3323
+,,Kep,1
+,,Siem Reap,23
+,,Djelfa,46
+,,Samtskhe-Javakheti,2
+,,Tiaret,38
+,,Jijel,96
+,,Louga,1
+,,Skikda,51
+,,Beheira,17
+,,Logone Oriental,3
+,,Battmabang,2
+,,New Valley,7
+,,Saraburi,2
+,,Lopburi,1
+,,Shabwah,190
+,,Ho Chi Minh,3
+,,Cotopaxi,2
+,,Port Said,16
+,,Almaty,7
+,,Kara,5
+,,Meghalaya,301
+,,Adjara,1
+,,Hiiraan,314
+,,Gedo,277
+,,Kratie,4
+,,Kabardino-Balkaria,32
+,,Duarte,4
+,,Yamagata,1
+,,Bago,13
+,,North Ossetia-Alania,41
+,,Qadisiyah,28
+,,Ngazidja,3
+,,Saint Mary,1
+,,Enga,3
+,,Kandal,4
+,,East Kazakhstan,1
+,,Stung Trang,1
+,,Sinop,1
+,,Maysan,35
+,,Shimane,1
+,,Irkutsk,5
+,,Gorno-Badakhshan,11
+,,Bong,1
+,,Hiroshima,1
+,,Bay,358
+,,Mambere Kadei,8
+,,Khatlon,24
+,,Burgenland,3
+,,Ratchaburi,4
+,,Prey Veng,2
+,,Districts of Republican Subordination,19
+,,Chlef,80
+,,Yambol,1
+,,Lower Shebelle,704
+,,Northern Territory,2
+,,Alto Parana,4
+,,Poznan,1
+,,El Bayadh,2
+,,Littoral,7
+,,Dushanabe,2
+,,Kolda,11
+,,Beni,3
+,,Pavlodar,1
+,,Dhi Qar,72
+,,Khost,480
+,,Tebessa,22
+,,Bratislava,13
+,,Yunlin,2
+,,Veraguas,4
+,,Karaganda,1
+,,Butare,7
+,,Sanaa,85
+,,Relizane,30
+,,Extreme-North,284
+,,Nzerekore,9
+,,Lahij,179
+,,El Taref,2
+,,Middle Juba,33
+,,Novosibirsk,2
+,,Kirikkale,5
+,,Saida,16
+,,Crimea,20
+,,Fes-Boulemane,1
+,,Mascara,27
+,,Qalyubia,28
+,,Middle Shebelle,172
+,,Tizi Ouzou,189
+,,Queretaro,2
+,,Bayelsa,124
+,,Aswan,13
+,,Al Bayda,164
+,,Pursa,1
+,,Virovitica-Podravina,1
+,,Baskortostan,1
+,,Amur,1
+,,Kostroma,1
+,,Manzandaran,1
+,,Amran,57
+,,Riga,14
+,,Jelenia Gora,1
+,,Labe,1
+,,Ingushetia,334
+,,Baja California,15
+,,Pazardzhik,1
+,,Kymenlaakso,2
+,,Guanajuato,7
+,,West Java,28
+,,Pskov,2
+,,Trnava,4
+,,Maradi,5
+,,Grand Bassa,2
+,,Dosso,1
+,,Koh Kong,2
+,,Grevenmacher,1
+,,Sverdlovsk,9
+,,Yerevan,18
+,,Primorsky Krai,5
+,,Pursat,6
+,,Diekirch,1
+,,Kumanovo,8
+,,Bas-Congo,6
+,,Phuket,8
+,,Kampong Speu,2
+,,Santo Domingo de los Tsachilas,1
+,,La Vega,2
+,,Bamako,17
+,,Sikkim,4
+,,Sarande,3
+,,Ngozi,13
+,,Upper Normandy,3
+,,Buryatia,2
+,,Cross River,15
+,,Phongsaly,1
+,,El Oro,1
+,,Sevastopol,2
+,,Preah Vihear,3
+,,Distrito Federal,3
+,,Fujian,3
+,,Uvea,1
+,,Qusar,1
+,,Minsk,10
+,,Mugla,8
+,,Gambela,18
+,,Chita,1
+,,M'Sila,13
+,,Kampot,7
+,,Voru,1
+,,El Tarf,1
+,,Montenegro,2
+,,Notranjsko-kraška,1
+,,Ida-Viru,3
+,,Abuja,45
+,,Keelung,1
+,,Muyinga,8
+,,Noyemberyan,1
+,,Al Anbar,3455
+,,Auckland,3
+,,Braganca,1
+,,Oum El Bouaghi,2
+,,Sari Pul,180
+,,Lunda Sul,3
+,,Moyen-Cavally,4
+,,Vorarlberg,2
+,,Nippes,1
+,,Taichung,2
+,,Villa Clara,1
+,,Goa,5
+,,Portland,1
+,,Kampong Chhnang,14
+,,Cyangugu,7
+,,North Kivu,507
+,,Banjul,3
+,,Mid-Western,125
+,,Svay Rieng,2
+,,Kirundo,14
+,,Kayanza,23
+,,Komi Republic,1
+,,Kumamoto,1
+,,Pyongyang,1
+,,Maranhao,5
+,,Oromia,15
+,,Maan,12
+,,Kibungu,3
+,,Chongqing,1
+,,Kampong Chnnang,1
+,,Bujumbura Rural,58
+,,Mato Grosso,2
+,,Bururi,32
+,,Tozeur,1
+,,Mila,3
+,,Nugaal,16
+,,Gikongoro,3
+,,Diffa,75
+,,Denkalia,1
+,,Saint Gallen,6
+,,Kanem,1
+,,Carchi,1
+,,Gitega,47
+,,Khabarovsk Krai,2
+,,Sud-Est,1
+,,Matam,1
+,,South Kivu,90
+,,Prachuap Khiri Khan,6
+,,Muthanna,21
+,,Vysocina,1
+,,Sughd,5
+,,Ain Temouchent,4
+,,Odessa,56
+,,Arauco,1
+,,Mahajanga,3
+,,Southern Nations,6
+,,Szczecin,1
+,,South Carolina,5
+,,Saint George Basseterre,1
+,,Princes Town,1
+,,Sakha,1
+,,Muramvya,10
+,,Banska Bystrica,1
+,,Tavush,1
+,,Racha-Lechkhumi and Kvemo Svaneti,1
+,,Morogoro,3
+,,Milne Bay,1
+,,Makamba,14
+,,Papeete,3
+,,Wyoming,3
+,,Imereti,2
+,,Skopje,27
+,,Rio Negro,7
+,,Zanzan,1
+,,Primorje-Gorski Kotar,2
+,,Tabuk,3
+,,Agneby,6
+,,Fromager,2
+,,Panamá,1
+,,Lam Dong,1
+,,West Sumatra,4
+,,Zabaykalsky Krai,2
+,,Cankuzo,4
+,,Chelyabinsk,3
+,,Styria,4
+,,Bordj Bour Arreridj,3
+,,Macau,33
+,,Karbala,146
+,,Monufia,12
+,,Chisinau,6
+,,Khanty-Mansi,4
+,,Kukes,2
+,,Hidalgo,5
+,,Atacora,1
+,,Champagne-Ardenne,1
+,,Ibb,89
+,,Hainan,1
+,,Taizz,429
+,,Bishkek,18
+,,Kassala,12
+,,Copperbelt,2
+,,Alberta,17
+,,Muharraq,11
+,,Xinjiang Uyghur,39
+,,Irbid,5
+,,Rutana,7
+,,Nord-Ouest,1
+,,Klaipeda,1
+,,Suez,17
+,,Maranhaos,1
+,,Suria,1
+,,Derna,216
+,,Balkh,202
+,,Baoruco,1
+,,Vorenezh,2
+,,Coahuila,4
+,,Kinmen,1
+,,Cuvette,1
+,,Volgograd,12
+,,Hanoi,1
+,,Astrakhan,6
+,,Quintana Roo,9
+,,Shaanxi,7
+,,Dakhlet Nouadhibou,1
+,,Darien,5
+,,Shandong,4
+,,Durango,1
+,,Yogyakarta,8
+,,Lakes,3
+,,Dubrovnik-Neretva,1
+,,Ruyigi,12
+,,Jiangxi,1
+,,Sibenik-Knin,1
+,,Maribor,2
+,,Saint James,1
+,,Skierniewice,1
+,,Komarom-Esztergom,1
+,,Southern Highlands,1
+,,Haskovo,2
+,,Rio Grande do Norte,1
+,,Antsiranana,2
+,,Velenje,1
+,,Phichit,1
+,,Samut Sakhon,1
+,,Nakhon Pathom,6
+,,Nakhon Sawan,1
+,,St. Petersburg,2
+,,Tyumen,3
+,,Moravian-Silesian,1
+,,Wadi al Shatii,1
+,,Ashanti,5
+,,Stara Zagora,1
+,,Henan,3
+,,Gunma,1
+,,Tibet,6
+,,Northern Red Sea,1
+,,Ceara,2
+,,Tatarstan,7
+,,Harer,2
+,,Oddar Meancheay,2
+,,Kochi,1
+,,Arusha,7
+,,Gharbia,30
+,,Nzwani,1
+,,Presov,1
+,,Elbasan,3
+,,Sangha,1
+,,South Darfur,221
+,,Cojedes,2
+,,Blida Province,1
+,,Medea Province,2
+,,Central Java,21
+,,Guajira,1
+,,Matanzas,2
+,,Copan,2
+,,Bechar,5
+,,Krasnodar,5
+,,Algiers Province,3
+,,Dhamar,45
+,,Hajjah,40
+,,Sihanoukville,2
+,,Legnica,1
+,,Oyo,8
+,,Anambra,22
+,,Zacatecas,1
+,,Durres,3
+,,Maria Trinidad Sanchez,3
+,,Saint John,1
+,,Puke,2
+,,Lezhe,2
+,,Tissimsilt,1
+,,Kibuye,1
+,,Fier,7
+,,Gjirokaster,10
+,,Lushnje,1
+,,Novgorod,1
+,,Vlore,7
+,,Peqin,1
+,,Moyen-Chari,2
+,,Diber,1
+,,Aguascalientes,2
+,,Kirsehir,1
+,,Szabolcs-Szatmar-Bereg,1
+,,Rivers,186
+,,Abyan,317
+,,Galguduud,129
+,,Kucove,1
+,,Osun,20
+,,Mwali,2
+,,Leningrad,2
+,,Tissemsilt,10
+,,Haut-Ogooue,1
+,,Obock,1
+,,Ekiti,19
+,,Kosovo and Metohija,24
+,,Kalmykia,1
+,,South Sulawesi,15
+,,Delta,189
+,,Tepelene,1
+,,Ljubljana,2
+,,Medimurje,1
+,,Central Bosnia,1
+,,Beijaia,1
+,,Bakool,117
+,,Manitoba,1
+,,Karuzi,3
+,,North Kordofan,4
+,,Los Santos,1
+,,Blue Nile,5
+,,Gostivar,5
+,,Saint Andrew,5
+,,Mallakaster,1
+,,Tetovo,34
+,,Prilep,2
+,,Maramvya,1
+,,Boussaken,2
+,,Muaskar,11
+,,Yekaterinburg,1
+,,Sofia,4
+,,El Biar,1
+,,Kosice,1
+,,Lautem,1
+,,Hubei,4
+,,Médéa,25
+,,Saïda,7
+,,Boumerdès,153
+,,Karotegin,1
+,,Tébessa,18
+,,Tizi Ouzau,1
+,,M'sila,2
+,,Tipasa,25
+,,Wicklow,5
+,,Crna Gora,1
+,,Aïn Defla,35
+,,Al Jawf,54
+,,Al Hudaydah,138
+,,Podlaskie,1
+,,Librazhd,2
+,,Pomorskie,1
+,,Kulyabskaya,1
+,,El-Oued,1
+,,Arkhangelsk,3
+,,Sakhalin,3
+,,Ar Raqqah,1
+,,Maniema,10
+,,Auvergne,1
+,,Manufahi,1
+,,British Colombia,9
+,,Tipaza Province,2
+,,Ain Defla Province,6
+,,Luganda,1
+,,Cankiri,1
+,,East Darfur,25
+,,Kabylie,3
+,,Karachay-Cherkessia,12
+,,Ningxia Hui,1
+,,Irian Jaya,6
+,,Wasit,121
+,,Dili,17
+,,Belgrade,18
+,,Pool,6
+,,Guandacanal,3
+,,Boufarik,1
+,,Liquica,3
+,,Pecki,3
+,,Greater Skopje,1
+,,M'chedallah,1
+,,North Aceh,2
+,,Cova-lima,1
+,,Bouenza,2
+,,Gnjilane,2
+,,Batken,4
+,,Bobonaro,3
+,,Ermera,2
+,,East Nusa Tenggara,6
+,,South Sinai,25
+,,Rostov,11
+,,River Nile,1
+,,Maluka,1
+,,Pristina,28
+,,Fergana,1
+,,Kolubara,3
+,,Northwestern,1
+,,Bosanska Krajina,1
+,,Ad Dali,133
+,,Central Serbia,5
+,,Lviv,27
+,,Sofia City,5
+,,Draa El Mizan,1
+,,El Khardja,1
+,,Cetinje,1
+,,Sukhumi,1
+,,Orahovac,1
+,,Compostela Valley,203
+,,East Aceh,1
+,,Aracinovo,2
+,,"Naka District, Ibaraki",1
+,,Lower Normandy,1
+,,Graubunden,2
+,,Oslomej,1
+,,Smolensk,2
+,,Isparta,1
+,,Kumanovo municipality,1
+,,Kosovska Mitrovica,27
+,,Khabarovsk,2
+,,Maluku,37
+,,Pcinja,12
+,,Kamchatka,1
+,,Vedensky,1
+,,Vukovar-Syrmia,1
+,,Podgorica,6
+,,Skikida,2
+,,Berber,1
+,,Obilic,1
+,,Topaz,1
+,,Federal Territory,1
+,,Tissmesilt,2
+,,Pec,8
+,,Mexican Federal District,1
+,,Smolensk Oblast,1
+,,Cakaudrove,1
+,,Macuata,1
+,,Badghis,247
+,,Gjilane,7
+,,Asir,47
+,,Prizren,3
+,,Lika,1
+,,Kindia,3
+,,Pristina district,1
+,,Urus-Martanovsky,2
+,,Guerrouche,1
+,,Cental Division,1
+,,Dakovica,2
+,,Mitidja Plains,1
+,,Central Sulawesi,68
+,,Inner Mongolia,2
+,,Rukwa,1
+,,Kaliningrad Oblast,1
+,,Stavropol Krai,3
+,,Orellana,1
+,,Jablanica,2
+,,Central Division,1
+,,Luhansk Oblast,1
+,,Central Maluku,1
+,,New Territories,2
+,,Bouïra Province,4
+,,Faranah,1
+,,Takhar,208
+,,Yogyakarta Special Region,1
+,,Riau,7
+,,Pemba South,2
+,,Castries Quarter,1
+,,Vranje,1
+,,Bamyan,30
+,,Western Bahr el Ghazal,11
+,,Dahra,2
+,,Tearce,2
+,,Kanto,1
+,,Bujanovac,3
+,,Yugoslavia,1
+,,Kedah,7
+,,Yeongnam,1
+,,Dak Lak,4
+,,Médéa Province,2
+,,Kigoma,2
+,,Akmola,1
+,,Bissau,8
+,,Kofarnihon,1
+,,Parita-Merivalja,1
+,,Vedeno,1
+,,Banten,6
+,,Central Kalimantan,1
+,,Tula,2
+,,El Bordj,1
+,,Presevo,1
+,,Taoyuan,1
+,,Betong,1
+,,Muang,1
+,,Shali,1
+,,Siah,1
+,,Gisagara,1
+,,Lipkovo,2
+,,Guntur,1
+,,North-Kivu,1
+,,Lampung,3
+,,Opstina Strumica,1
+,,Cunene,2
+,,Tomsk Oblast,1
+,,Seventh District,1
+,,Shirak,1
+,,Monivong,2
+,,Heredia,1
+,,Jegunovce,7
+,,Tabaza,1
+,,Tissemselt,1
+,,Polog,6
+,,Northeastern,2
+,,Vargas,1
+,,Liberec,1
+,,Branicevo,1
+,,Urosevac,2
+,,Unity,37
+,,Zaqatala,5
+,,Masovian,1
+,,Moluku,1
+,,Opoja,1
+,,Mwaro,7
+,,Lupon,1
+,,Zug,1
+,,Tearce municipality,1
+,,Kasserine,43
+,,Maluku province,1
+,,Ar Rayyan,2
+,,Tetovo Municipality,1
+,,Gbarpolu,1
+,,Enugu,27
+,,Kayar,1
+,,Sulawesi,6
+,,Aceh Besar,1
+,,Rouiba,1
+,,Bir Mourad Rais,1
+,,Haoudh,1
+,,Blidu,1
+,,Sétif,4
+,,Kiev City Municipality,2
+,,Margibi,1
+,,Medenine Governorate,1
+,,Kayin State,1
+,,Borkou,2
+,,West Darfur,57
+,,North Ossetia,12
+,,Southeast,2
+,,Zakarpattia,4
+,,Aomar,2
+,,Cortés,2
+,,Fianarantsoa,1
+,,Aceh province,1
+,,Dire Dawa,2
+,,Catanduanes,18
+,,Parwan,208
+,,Kunar,480
+,,Ogun,12
+,,Sulawesi Tengah,1
+,,Chuy Province,2
+,,North Maluku,3
+,,Relizane Province,1
+,,Guangxi,3
+,,Gulf of Aden,1
+,,Vallee du Bandama,2
+,,North Sulawesi,1
+,,Bali,5
+,,Moscow Federal City,1
+,,Plateau,272
+,,Kwara,9
+,,North Ossetia–Alania,1
+,,Ashgabat,1
+,,Atsabe,1
+,,North Moravia,1
+,,Voronezh,3
+,,Illizi,9
+,,Tamanghasset,5
+,,Louangphrabang,3
+,,Imo,21
+,,Malaita,1
+,,Struga municipality,1
+,,Ouargla,2
+,,Maliana,1
+,,Nimroz,181
+,,Grand Gedeh,1
+,,Najaf,57
+,,Sumatra,1
+,,Uruzgan,513
+,,Zabul,435
+,,Osh,2
+,,Greater Casablanca,10
+,,Logar,385
+,,Volga,1
+,,Wassec,1
+,,Jizan,3
+,,Medveda,1
+,,Asmara,1
+,,Chkhorotsku,1
+,,Jeola,1
+,,Oum el-Bouaghi,1
+,,Babil,1146
+,,Farah,638
+,,Ajaria,1
+,,Samangan,67
+,,Ali Sabieh,1
+,,Béjaïa,7
+,,Siberia,1
+,,Kogi,70
+,,Tainan,1
+,,Zanzibar West,14
+,,Paktika,347
+,,Madinah,7
+,,Nuristan,99
+,,Ambon,1
+,,El Aissaoui,1
+,,Baghlan,388
+,,Laghman,246
+,,South Ossetia,13
+,,Songkla,2
+,,Qassim,2
+,,Karachayevo-Cherkessia,1
+,,Nouakchott,6
+,,Borno,1611
+,,North Darfur,312
+,,Shida Kartlie,1
+,,Ituri,52
+,,Chuy,4
+,,Prishtine,1
+,,Saada,61
+,,Bauchi,83
+,,Rayong,3
+,,Kartli,1
+,,Andijon,3
+,,Sokoto,11
+,,Khenchela,10
+,,Kabardino-Balkariya,22
+,,Maluku Province,1
+,,Yarang,1
+,,Sungai Padi,1
+,,Yaha,1
+,,Tskhinvali,1
+,,Acapulco,1
+,,Yala Muang  District,2
+,,Daykundi,20
+,,South Sinai Governorate,1
+,,Republic of Degastan,1
+,,Port-of-Spain City Corporation,1
+,,Aqaba,2
+,,Ghardaïa,1
+,,Ra Ngae,1
+,,Bicol,1
+,,Su-ngai Kolok  District Su-ngai Kolok,1
+,,Cacheu,1
+,,Krasnoyarsk,2
+,,Ghardaia,2
+,,Ouaddai,15
+,,Ombella-M'Poko,9
+,,Raska,1
+,,Guera,3
+,,Zabaykalsky,1
+,,Kapisa,159
+,,Yala Province,9
+,,Narathiwat Province,10
+,,JalAl-Abad,1
+,,Nabatiyeh,1
+,,Tak Bai,1
+,,Caucasus,1
+,,North Caucasus,1
+,,Dniester,1
+,,Kurchaloyevsky,1
+,,Malgobeksky,2
+,,Quintana,1
+,,North-Caucasian,1
+,,"Pattani, Narathiwat, and Yala",1
+,,Chukha,3
+,,Wadi Fira,4
+,,Chaing Mai,1
+,,Nabuel,1
+,,Tamalous,1
+,,North Catobato,1
+,,Lacs,1
+,,Inguisha,1
+,,Than To,1
+,,Rangae,2
+,,Ennedi-Ouest,1
+,,Afar,3
+,,Mitrovice,3
+,,Sungai Kolok,1
+,,Sultan Kudurat,1
+,,Kidal,142
+,,Narathiwat province,1
+,,Viqueque,1
+,,Republic of Dagestan,2
+,,Ouham-Pende,13
+,,Amdjoudh Massif,1
+,,Novgorod Oblast,1
+,,South East St. Andrew,1
+,,Yala  District,1
+,,Gash Barka,2
+,,Trat,2
+,,Roztochia Upland,1
+,,Jawzjan,350
+,,South Highlands,1
+,,Southwest,9
+,,Kosovo-Metohija,1
+,,Cababobo,1
+,,Sool,7
+,,Warap,9
+,,Kosovo and Metojia,1
+,,Upper North Province,1
+,,Yala Province/Muang District,1
+,,Tanout Department,1
+,,Pattani and Yala Provinces,1
+,,Grozny,1
+,,Agadez Department,1
+,,"Pattani, Narathiwat, and Yala Provinces",1
+,,Kabylie Region,1
+,,Voronezh Oblast,1
+,,Cuyuni-Mazaruni,1
+,,Istria,1
+,,Gabes,1
+,,Shiselweni,1
+,,Niamey Capital District,1
+,,Chechen Republic,1
+,,Sahara,1
+,,Hungary,2
+,,Kabardino Balkariya,113
+,,West Equatoria,25
+,,Leposaviq,1
+,,Segou,34
+,,Davao Del Sur,15
+,,Mudug,154
+,,Andhra pradesh,41
+,,Orahovo,1
+,,Karachayevo Cherkesiya Republic,7
+,,Bordj Bou Arreridj,3
+,,Abia,16
+,,Praha,3
+,,Stavropolye Region,5
+,,Kalimantan Timur,1
+,,Arunachal Pradesh,30
+,,Kalinga-Apayao,1
+,,Kosovsko Mitrovica,1
+,,Jijel Province,11
+,,M'sila Province,4
+,,Benue,309
+,,Samegrelo and Zemo Svaneti,6
+,,Boumerdes Province,16
+,,Ebonyi,13
+,,Krasnodar Krai,4
+,,Propinsi Sulawesi Tengah,1
+,,Karen,1
+,,Nazranovsky,2
+,,Russian Republic,16
+,,Skra,1
+,,Lubombo,2
+,,Karlovacka,1
+,,Nonthaburi,15
+,,Skikda Province,4
+,,Westmeath,2
+,,Tebessa Province,8
+,,Kufrah,1
+,,Tizi Ouzou Province,33
+,,Batna Province,2
+,,Heilongjiang,2
+,,Hunan,2
+,,Michoacán,1
+,,Yangon Division,8
+,,Vakaga,8
+,,Shikoku,1
+,,Bandundu,6
+,,Phetchabun,2
+,,Kasai Oriental,2
+,,Central Darfur,94
+,,Shamal Sina,13
+,,T'bilisi,6
+,,Samara,1
+,,Sarpang,2
+,,Tillabéri,1
+,,Tbessa,8
+,,Boumerdès Province,11
+,,Bioko Norte,1
+,,Fukuoka,1
+,,Pest,1
+,,Béjaïa Province,6
+,,Pathum thani,2
+,,Zubin Potok,1
+,,Lakhdaria Province,1
+,,Bouira Province,11
+,,Tébessa Province,1
+,,Leninabad,1
+,,Haut Congo,1
+,,Constantine Province,1
+,,Biskra Province,1
+,,Mtskheta-Mtianeti,1
+,,Zugdidi,3
+,,Bordj Bou Arreridj Province,1
+,,Jalilabad,1
+,,sakon nakhon,1
+,,Khenchela Province,1
+,,Dalmatia,1
+,,Mascara Province,1
+,,Shan State,4
+,,Tissemsilt Province,1
+,,sulawesi utara,1
+,,Setif Province,3
+,,Francisco Morazán,6
+,,Iligan,1
+,,Haut-Mbomou,28
+,,Bamingui-Bangoran,3
+,,Tver,1
+,,Sidi Bel Abbès Province,1
+,,Oran Province,1
+,,Mbomou,35
+,,samut prakan,1
+,,khon kaen,1
+,,Gori,1
+,,phayao,1
+,,Phayao,1
+,,Equateur,2
+,,Ayutthaya,1
+,,Pegu,1
+,,Haute-Kotto,15
+,,Khon Kaen,2
+,,Mukdahan,1
+,,Concepcion,35
+,,Darfur,3
+,,Sangre Grande Regional Corporation,1
+,,Oryol Oblast,2
+,,Bordj Bou Arréridj,2
+,,Fujairah,2
+,,Hodh Ech Chargui,2
+,,Canindeyu,2
+,,Soghd,1
+,,Lodz,1
+,,Paktika Province,1
+,,Zolsky,1
+,,Bir H'mam,1
+,,Krasnodarsky,1
+,,Haut-Sassandra,3
+,,Elbrussky,1
+,,Akershus,1
+,,Gombe,78
+,,Donetsk Oblast,2
+,,Moscow Oblast,2
+,,Caazapa,1
+,,Traza,1
+,,Niger,25
+,,Wilaya de Djelfa,1
+,,Romblon,1
+,,Volgograd Oblast,2
+,,Alger,2
+,,Marrakech-Tensift-El Haouz,2
+,,Java,1
+,,Kebbi,2
+,,Tataouine,3
+,,Aktobe,5
+,,Siliana,2
+,,Yobe,269
+,,Najran,92
+,,Gezira,1
+,,Samara Oblast,1
+,,Sumatera Selatan,1
+,,México,1
+,,Mindanao Island,1
+,,Deir ez-Zor,150
+,,Zaghouan,1
+,,Buskerud,1
+,,Mistrata,1
+,,Jubaland,1
+,,Sistan va Baluchestan,1
+,,Tindouf,1
+,,Atyrau,3
+,,Karen State,1
+,,Papua Province,2
+,,Quezon Province,1
+,,Almaty Province,1
+,,Yaroslavl Oblast,1
+,,Idlib Region,1
+,,Davao Region,1
+,,North Sinai Governorate,3
+,,Jambyl Province,1
+,,Kabarda-Balkaria,2
+,,Ingushetia Republic,1
+,,Garissa,101
+,,Irrawaddy Region,1
+,,Sedhiou,4
+,,District of Kosovska Mitrovica,1
+,,Bangkok Province,1
+,,Central District,1
+,,North Caucasian Federal District,1
+,,Sinai,1
+,,Jigawa,10
+,,Poltava,7
+,,White Nile,1
+,,Mahwit,5
+,,Hofudhborgarsvaedhi,1
+,,Tawi-Tawi,17
+,,Marahoue,1
+,,Al Qadisiyah,32
+,,West Kazakhstan,1
+,,Tartus,9
+,,Nasarawa,97
+,,Ciudad de Buenos Aires,7
+,,Ivano-Frankivsk,8
+,,Southern and Eastern Serbia,2
+,,Gomel,1
+,,Montagnes,6
+,,Misrata,93
+,,Blagoevgrad,2
+,,Clare,2
+,,Wahat,81
+,,Putrajaya,1
+,,Riau Islands,1
+,,Abidjan,11
+,,Moyen-Comoe,1
+,,Analamanga,3
+,,Panjsher,3
+,,Jabal Al Akhdar,46
+,,Sud-Comoe,2
+,,Pathum Thani,4
+,,Manouba,1
+,,Sistan and Baluchestan,38
+,,Raqqah,70
+,,Grodno,1
+,,Phangnga,5
+,,Vitebsk,1
+,,San Pedro,35
+,,Kayes,2
+,,Kemo,8
+,,Nouvelle-Aquitaine,9
+,,Lattakia,60
+,,Marj,3
+,,Sabha,53
+,,Kufra,10
+,,South Bohemia,1
+,,Butnan,26
+,,Thessaly,4
+,,Mandera,122
+,,Ouham,25
+,,Bungoma,4
+,,Mombasa,29
+,,Wajir,33
+,,Sirte,351
+,,Kilifi,7
+,,Nakuru,3
+,,Kurdufan,1
+,,Nana-Grebizi,10
+,,Selangor,11
+,,Kef,8
+,,Lipetsk,1
+,,Isiolo,2
+,,Zawiya,32
+,,Aqmola,3
+,,Matruh,4
+,,Donetsk,958
+,,Dakahlia,13
+,,Ben Arous,2
+,,Berane,1
+,,Kiambu,3
+,,Free State,9
+,,Lekoumou,1
+,,Alborz,1
+,,Longford,3
+,,Sumy,4
+,,Tobago,2
+,,Point Fortin,1
+,,Jendouba,6
+,,Sidi Bou Zid,1
+,,As Suwayda,36
+,,Benishangul-Gumuz,4
+,,Shanxi,1
+,,Nuqat Al Khams,24
+,,Gracias a Dios,1
+,,Turkana,3
+,,Kwale,16
+,,Wadi Al Shatii,6
+,,Kafr El-Sheikh,1
+,,Marsabit,2
+,,Murzuq,7
+,,Guizhou,1
+,,Nana-Mambere,7
+,,Central Bohemia,1
+,,Phetchaburi,1
+,,Poitou-Charentes,2
+,,Jabal Al Gharbi,29
+,,Puducherry,2
+,,Nan,2
+,,NIneveh,1
+,,Mafraq,4
+,,Kherson,16
+,,Wadi Al Hayaa,15
+,,Bas-Sassandra,5
+,,Zanzibar South,1
+,,Mary,1
+,,Haa Dhaalu Atoll,4
+,,Nigde,1
+,,Lobaye,1
+,,Lamu,92
+,,Western Equatoria,14
+,,Cherkasy,4
+,,Luhansk,444
+,,Ouaka,45
+,,Davao Occidental,7
+,,Jazan,145
+,,Nordhurland Eystra,1
+,,unknown,1
+,,Mwanza,4
+,,Haut-Uele,15
+,,Negeri Sembilan,1
+,,Nyandarua,1
+,,New Brunswick,1
+,,Gjakova,1
+,,Zaporizhzhya,5
+,,Meru,1
+,,Gedarif,5
+,,Tana River,4
+,,Northern Borders,3
+,,Qinghai,1
+,,Kairouan,3
+,,Medenine,9
+,,Amambay,2
+,,Rivne,7
+,,West Nusa Tenggara,3
+,,Chernihiv,2
+,,Usti nad Labem,2
+,,Issyk Kul,1
+,,Jafara,20
+,,South Sumatra,1
+,,Kyivska,6
+,,Distrito Nacional,1
+,,Mayo,1
+,,Ghat,5
+,,Bizerte,1
+,,Quba,1
+,,Zhytomyr,1
+,,Indre-et-loire,1
+,,Sangha-Mbaere,1
+,,Burgundy,1
+,,Mykolayiv,2
+,,Jufra,20
+,,Telangana,41
+,,Siquijor,3
+,,Pays de la Loire,2
+,,Chernivtsi,1
+,,Centre-Val de Loire,3
+,,Kafr el-Sheikh,4
+,,Sarawak,3
+,,Lac,34
+,,Tanga,1
+,,Kagera,6
+,,North SInai,1
+,,Sahel,57
+,,Samburu,1
+,,Kolasin,1
+,,Tasmania,1
+,,Sikasso,4
+,,Sidi Bouzid,5
+,,Vasterbotten,1
+,,South Kurdufan,2
+,,Koulikoro,16
+,,Mexico,10
+,,Zebbug,1
+,,Basse-Kotto,10
+,,Jonkoping,1
+,,Centre-Nord,5
+,,Volyn,3
+,,Laane-Viru,1
+,,Norrbotten,1
+,,Hail,3
+,,Giresun,5
+,,Kaafu Atoll,1
+,,Gavleborg,2
+,,Western Finland,1
+,,Haut-Bassins,1
+,,Kronoberg,1
+,,Halland,1
+,,Sodermanland,1
+,,Kalmar,1
+,,Orebro,4
+,,Jubek,19
+,,Kasai-Oriental,9
+,,Northern Ostrobothnia,2
+,,Satakunta,2
+,,Imatong,5
+,,Pirkanmaa,2
+,,Gbudwe,8
+,,Paijanne Tavastia,1
+,,Kirinyaga,3
+,,Southwest Finland,1
+,,Auvergne-Rhone-Alpes,11
+,,Alif Dhaalu,1
+,,Xaisomboun,2
+,,Galway,1
+,,Bas-Uele,15
+,,Central Finland,1
+,,Bay of Plenty,1
+,,Haut-Katanga,9
+,,Paysandu,1
+,,Kirovohrad,1
+,,Kwango,1
+,,Rumonge,3
+,,Vasternorrland,2
+,,Bio-Bio,10
+,,Yei River,19
+,,Grand-Est,3
+,,Vologda,1
+,,Lower Silesia,1
+,,Masovia,2
+,,Tanganyika,12
+,,Occitanie,11
+,,Chumphon,1
+,,East Berbice-Corentyne,1
+,,Lori,1
+,,Balqa,2
+,,Lol,11
+,,Wau,4
+,,Portuguesa,1
+,,Trans-Nzoia,1
+,,Lualaba,1
+,,Normandy,1
+,,Niassa,4
+,,Alto Paraguay,1
+,,Kasai-Central,14
+,,Altai,1
+,,Kisumu,1
+,,Aminat Al Asimah,1
+,,Nizhny Novgorod,2
+,,Amadi,3
+,,Hauts-de-France,2
+,,Magway,1
+,,East Kalimantan,1
+,,West Kalimantan,1
+,,Morona Santiago,3
+,,Perlis,1
+,,Gyeongsangbuk-do,1
+,,Equator,1
+,,Karak,3
+,,Mongala,3
+,,Kakamega,4
+,,Province 2,41
+,,Northern Upper Nile,7
+,,Menaka,33
+,,Province 3,91
+,,Province 7,33
+,,Greater Poland,1
+,,Province 4,43
+,,U.S. Virgin Islands,3
+,,Lomami,1
+,,Pelagonia,1
+,,Ismailli,1
+,,Kebili,1
+,,Western Bieh,1
+,,Southern Liech,9
+,,Eastern Lakes,3
+,,Sila,2
+,,Quirino,7
+,,Terekeka,4
+,,Nayarit,2
+,,Baja California Sur,2
+,,South-West,114
+,,Kasai,2
+,,Migori,1
+,,Central Upper Nile,1
+,,Boma,3
+,,Dong Nai,1
+,,Nalut,3
+,,Pwani,5
+,,Ho Chi Minh City,2
+,,Province 6,15
+,,Jalal-Abad,1
+,,North-West,125
+,,Province 5,50
+,,Laikipia,2
+,,Central Bohemian Region,2
+,,Jiangsu,1
+,,Province 1,70
+,,Kirov,1
+,,Boucle du Mouhoun,9
+,,Varmland,2
+,,Savanes,1
+,,Jiwaka,1
+,,New Ireland,1
+,,Siaya,1
+,,Jamtland,1
+,,Sud-Bandama,4
+,,Moravia-Silesia,1
+,,Kisii,1
+,,Tavastia Proper,1
+,,Dodoma,1
+,,Homa Bay,1
+,,Bourgogne-Franche-Comte,6
+,,Eastern Bieh,3
+,,Mosta,1
+,,Carlow,1
+,,Western Lakes,2
+,,Vidzeme,1
+,,Northern Liech,4
+,,Issyk-Kul,1
+,,Twic,1
+,,Kankan,1
+,,Litoral,2
+,,Kasai-Occidental,4
+,,Dnipro,2
+,,Karnali,3
+,,Friesland,1
+,,Latjoor,2
+,,South Kalimantan,1
+,,Est,25
+,,Bijelo Polje,1
+,,Bashkortostan,1
+,,Tshopo,2
+,,Trentino-Alto Adige,1
+,,Pleven,1
+,,Jambi,1
+,,Ternopil,1
+,,Centre-Est,1
+,,Ganja-Qazakh,1
+,,Anjouan,1
+,,Sud-Ouest,2
+,,Lilongwe,2
+,,Hithadhoo,1
+,,Taipei City,1
+,,North Cotabo,1
+,,Chaguanas,1
+,,Sarajevo,1
+,,North Karelia,1
+,,North-Rhine-Westphalia,1
+,,Auvergne-Rhones-Alpes,1
+,,Balad Ruz,1
+,,Ranong,1
+,,East Macedonia and Thrace,1
+,,South Banat,1
+,,Cascades,1
+,,Madaba,1
+,,West,3
