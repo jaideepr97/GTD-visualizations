@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Time of Year vs Attacks</title>
+         <!-- d3.js library -->	
+        <script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+        <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+        <link rel="stylesheet" href="//rawgithub.com/Caged/d3-tip/master/examples/example-styles.css">
+
+    </head>
+
+    <style>
+            
+        body {
+        font: 10px sans-serif;
+        }
+
+        .axis path,
+        .axis line {
+        fill: none;
+        stroke: #000;
+        shape-rendering: crispEdges;
+        }
+
+        .bar {
+        fill: orange;
+        }
+
+        .bar:hover {
+        fill: orangered ;
+        }
+
+        .x.axis path {
+        display: none;
+        }
+
+        .d3-tip {
+        line-height: 1;
+        font-weight: bold;
+        padding: 12px;
+        background: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        border-radius: 2px;
+        }
+
+        /* Creates a small triangle extender for the tooltip */
+        .d3-tip:after {
+        box-sizing: border-box;
+        display: inline;
+        font-size: 10px;
+        width: 100%;
+        line-height: 1;
+        color: rgba(0, 0, 0, 0.8);
+        content: "\25BC";
+        position: absolute;
+        text-align: center;
+        }
+
+        /* Style northward tooltips differently */
+        .d3-tip.n:after {
+        margin: -1px 0 0 0;
+        top: 100%;
+        left: 0;
+        }
+
+    </style>
+
+    <body>
+        <script type="text/javascript">
+        
+            //Dimensions of graph
+            var w = 850;
+            var h = 550;
+            var padding = 20;
+
+            var bar_w = 475;
+            var bar_h = 550;
+            var bar_padding = 20;
+
+            //Append svg object
+            var svg = d3.select("body")
+                        .append("svg")
+                        .attr("width", w)
+                        .attr("height", h)
+                        .append("g")
+                        .attr("transform", "translate(20, 40)");
+            
+            var svg_bar = d3.select("body")
+                            .append("svg")
+                            .attr("width", bar_w)
+                            .attr("height", bar_h)            
+                            .append("g")
+                            .attr("transform", "translate(60, 40)");
+            
+            //Read data
+            d3.csv("gtdabridged.csv", function(data) {
+                //x = imonth, y = iyear
+
+                //Count how many times there are attacks per month each year
+                var countObj = {};
+                var largest = 0;
+                data.forEach(function(d) {
+                    var yr = d.iyear;
+                    var mnth = d.imonth;
+                    if (countObj[yr+" "+mnth] == undefined) {
+                        countObj[yr+" "+mnth] = 1;
+                    } else {
+                        countObj[yr+" "+mnth] += 1;
+                    }
+                    if (countObj[yr+" "+mnth] > largest)
+                        largest = countObj[yr+" "+mnth];
+                });
+                // console.log(countObj)
+                //Add axes
+                var xScale = d3.scaleLinear()
+                    .domain([1970, 2018])
+                    .range([0, (w-2*padding)]);
+                var yScale = d3.scaleLinear()
+                    .domain([0,12])
+                    .range([(h-3*padding), 0]);
+
+                let xAxisGenerator = d3.axisBottom(xScale);
+                xAxisGenerator.ticks(12)
+ 
+                svg.append("g")
+                    .attr("transform", "translate(0,"+(h-3*padding)+")")
+                    .call(xAxisGenerator);   
+                
+
+                d3.select('body')
+                    .on('click', function(){
+                    var year = Math.floor(xScale.invert(d3.event.pageX))
+                    var low_year = year - (year % 5)
+                    var high_year = low_year + 5
+                    var attackCount = [0,0,0,0,0,0,0,0,0,0,0,0];
+                    var curr_year = low_year
+
+                    while(curr_year < Math.min(high_year, 2019)) {
+                        for (var i=0; i<12; i++) {
+                            attackCount[i] += countObj[curr_year+" "+(i+1)]   
+                        }
+                        curr_year += 1
+                    }
+
+
+                    svg_bar.selectAll("*").remove();
+                    // var tip = d3.tip()
+                    //             .attr('class', 'd3-tip')
+                    //             // .offset([-10, 0])
+                    //             .html(function(d) {
+                    //                 return "<strong>Attak count:</strong> <span style='color:red'>" + d.value + "</span>";
+                    //             })
+                    // svg_bar.call(tip);
+                    
+                    var xScaleBar = d3.scaleLinear()
+                                        .domain([1, largest])
+                                        .range([0, (bar_w-2*bar_padding)]);
+                    let xAxisGeneratorBar = d3.axisBottom(xScaleBar);
+                    xAxisGeneratorBar.ticks(10)
+                    svg_bar.append("g")
+                        .attr("transform", "translate(0,"+(bar_h-3*bar_padding)+")")
+                        .call(xAxisGeneratorBar);
+
+                    var yScaleBar = d3.scaleLinear()
+                                    .domain([0,12])
+                                    .range([(bar_h-3*bar_padding), 0]);
+                    svg_bar.append("g").call(d3.axisLeft(yScaleBar));
+                    // var filteredData = None
+                    svg_bar.selectAll("rect")
+                            .data(attackCount)
+                            .enter()
+                            .append("rect")
+                            .attr("class", "bar")
+                            .attr("x",10)
+                            .attr("y",function(d,i){
+                                // console.log(i*40);
+                                return i *40; //Bar y position of i * 10 
+                            })
+                            .attr("width",function (d){
+                                return d/20; //Bar width of d * 10 
+                            })
+                            .attr("height", 35)
+
+                            .on("mouseover", function() {
+                                var month = 12 - (Math.floor(d3.mouse(d3.event.target)[1]/40));
+                                
+                                d3.select(this)
+                                    .attr("fill", "red");
+                                     filteredData = data.filter(function(d){ 
+                                        if( d.iyear > low_year && d.iyear < high_year && d.imonth == month)
+                                            { 
+                                                return d;
+                                            } 
+                                        })
+                                        svg.append("g")
+                                            .selectAll("dot")
+                                            .data(filteredData)
+                                            .enter()
+                                            .append("circle")
+                                            .attr("cx", function(d) { 
+                                                return xScale((d.iyear));
+                                            })
+                                            .attr("cy", function(d) {
+                                                return yScale(d.imonth);
+                                            })
+                                            .attr("r", function(d) {
+                                                return sqrt(countObj[d.iyear+" "+d.imonth]);
+                                            })
+                                            .style("fill", "red");
+                                    
+                                })
+                            .on("mouseout", function(d, i) {
+                                d3.select(this)
+                                    .attr("fill", "black");
+                                    var filteredData = data.filter(function(d){ 
+                                        if( d.iyear > low_year && d.iyear < high_year )
+                                            { 
+                                                return d;
+                                            } 
+                                        })
+                                    svg.append("g")
+                                            .selectAll("dot")
+                                            .data(filteredData)
+                                            .enter()
+                                            .append("circle")
+                                            .attr("cx", function(d) { 
+                                                return xScale((d.iyear));
+                                            })
+                                            .attr("cy", function(d) {
+                                                return yScale(d.imonth);
+                                            })
+                                            .attr("r", function(d) {
+                                                return sqrt(countObj[d.iyear+" "+d.imonth]);
+                                            })
+                                            .style("fill", "#69b3a2");
+                                });
+
+                    // console.log(attackCount)
+                    })
+
+                svg.append("g")
+                    .call(d3.axisLeft(yScale));
+
+                svg.append("text")
+                    .attr("transform", "translate(" + (w/2) + ", " + (h-padding) + ")")
+                    .style("text-anchor", "middle")
+                    .text("Month");
+                svg.append("text")
+                    .attr("transform", "rotate(-90)")
+                    .attr("y", 0 - 30)
+                    .attr("x", 0 - (h/2))
+                    .style("text-anchor", "middle")
+                    .text("Year");
+
+                //Dot size scale
+                var sqrt = d3.scalePow()
+                    .exponent(0.5)
+                    .domain([0, largest])
+                    .range([0, 20]);
+
+                //Add points
+                svg.append("g")
+                    .selectAll("dot")
+                    .data(data)
+                    .enter()
+                    .append("circle")
+                    .attr("cx", function(d) { 
+                        return xScale((d.iyear));
+                    })
+                    .attr("cy", function(d) {
+                        return yScale(d.imonth);
+                    })
+                    .attr("r", function(d) {
+                        return sqrt(countObj[d.iyear+" "+d.imonth]);
+                    })
+                    .style("fill", "#69b3a2");
+
+                svg.selectAll("circle")
+                    .filter(function(d) { 
+                        return (d.imonth == 0); 
+                    })
+                    .remove();
+
+            })
+
+        </script>
+    </body>
+</html>

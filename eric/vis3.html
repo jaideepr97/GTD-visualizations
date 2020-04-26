@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<head>
+    <meta charset="utf-8">
+    <title>Updating Bar Chart With Dropdown</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+	<style>
+        body {
+            font: 10px sans-serif;
+        }
+        select {
+            display: block;
+        }
+        .bar {
+            fill: steelblue;
+            opacity: 0.8;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            /* align-items: center; */
+        }
+
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: #000;
+            shape-rendering: crispEdges;
+        }
+
+        .d3-tip {
+            line-height: 1;
+            font-weight: bold;
+            padding: 12px;
+            background: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            border-radius: 2px;
+        }
+
+        .d3-tip:after {
+            box-sizing: border-box;
+            display: inline;
+            font-size: 12px;
+            width: 100%;
+            line-height: 1;
+            color: rgba(0, 0, 0, 0.8);
+            content: "\25BC";
+            position: absolute;
+            text-align: center;
+        }
+
+        .d3-tip.n:after {
+            margin: -1px 0 0 0;
+            top: 100%;
+            left: 0;
+        }
+	</style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            <div class="svg1"></div>
+        </div>
+        <div class="item">
+            <div class="svg2"></div>
+        </div>
+    </div>
+    <script>
+        const options = ['Frequency', 'Success']
+        const topNs = [10, 20, 30, 40, 50]
+        const params = { option: options[0], topN: topNs[0] }
+
+        d3.csv("gname_data.csv", function(error, data) {
+            render_l1(data.filter(d => d.gname !== 'Unknown'));
+        });
+
+        function render_l1(raw_data) {
+            // first level data
+            const data_l1 = d3.nest()
+                .key(function(d) { return d.gname; })
+                .rollup(function(v) { 
+                    return {
+                        Frequency: v.length, 
+                        Success: d3.sum(v, function(d) { return d.success; })
+                    }; 
+                })
+                .entries(raw_data)
+
+            
+            
+            // setup dimensions
+            const margin = {top: 30, right: 50, bottom: 300, left: 50},
+                width = 700 - margin.left - margin.right,
+                height = 500 - margin.top - margin.bottom;
+
+            // define scales
+            const x = d3.scale.ordinal()
+                .rangeRoundBands([0, width], .05);
+
+            const y = d3.scale.linear()
+                .range([height, 0]);
+
+            function updateBars(data, title) {
+                d3.select('#vis-targtype1_txt').remove(); 
+                d3.select('#vis-attacktype1_txt').remove(); 
+                d3.select('#vis-weaptype1_txt').remove(); 
+                d3.select('#vis-org').remove(); 
+                
+                // create svg canvas
+                const svg1 = d3.select(".svg1")
+                    .append("svg")
+                    .attr('id', 'vis-org')
+                    .attr("width", width + margin.left + margin.right)
+                    .attr("height", height + margin.top + margin.bottom)
+                    .append("g")
+                    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+                
+                const tip = d3.tip()
+                    .attr('class', 'd3-tip')
+                    .offset([-10, 0])
+                    .html(function(d) {
+                        return "<strong>" + title + ":</strong> <span style='color:red'>" + d.values + "</span>"; 
+                })
+
+                svg1.call(tip); 
+
+                // add axes to canvas
+                const xAxis = d3.svg.axis()
+                    .scale(x)
+                    .orient("bottom")
+                
+                x.domain(data.map(function(d) { return d.key; })); 
+                svg1.append("g")
+                    .attr("class", "x axis")
+                    .attr("transform", "translate(0," + height + ")")
+                    .call(xAxis)
+                    .selectAll("text")
+                    .style("font-size", "12px")
+                    .style("text-anchor", "end")
+                    .attr("dx", "-.8em")
+                    .attr("dy", "-.5em")
+                    .attr("transform", "rotate(-90)" );
+
+                const yAxis = d3.svg.axis()
+                    .scale(y)
+                    .orient("left")
+                    .ticks(10)
+                    .tickFormat(d3.format("d"))
+                    .tickSubdivide(0);
+                y.domain([0, d3.max(data, function(d) { return d.values; })*1.1]);
+                svg1.append("g")
+                    .attr("class", "y axis")
+                    .call(yAxis)
+
+                // add title
+                svg1.append('text')
+                    .attr('x', width/2)
+                    .attr('y', -margin.top/2)
+                    .attr('text-anchor', 'middle')
+                    .style('font-size', '20px')
+                    .style('text-decoration', 'underline')
+                    .text(title)
+
+                // Add bars for new data
+                svg1.selectAll(".bar")
+                    .data(data)
+                    .enter()
+                    .append("rect")
+                    .attr('class', 'bar')
+                    .attr("x", function(d) { return x(d.key); })
+                    .attr("width", x.rangeBand())
+                    .attr("y", function(d) { return y(d.values); })
+                    .attr("height", function(d) { return height - y(d.values); })
+                    .on("mouseover", function(d) {
+                        d3.select(this)
+                            .style('fill', 'red'); 
+                            tip.show(d); 
+                    }) 
+                    .on("mouseout", function(d, i) {
+                        d3.select(this)
+                            .style('fill', 'steelblue')
+                            tip.hide(d); 
+                    })
+                    .transition()
+                    .duration(1500)
+                    .attr("y", function(d) { return y(d.values); })
+                    .attr("height", function(d) { return height - y(d.values); }); 
+
+                // clickable bars
+                let svg2 = null; 
+
+                // render linked charts
+                render_l2(data[0], 'weaptype1_txt'); 
+                render_l2(data[0], 'attacktype1_txt'); 
+                render_l2(data[0], 'targtype1_txt'); 
+
+                svg1.selectAll(".bar")
+                    .on("click", d => handleBarClick(d)); 
+                
+                function handleBarClick(d) {
+                    // render linked charts
+                    render_l2(d, 'weaptype1_txt'); 
+                    render_l2(d, 'attacktype1_txt'); 
+                    render_l2(d, 'targtype1_txt'); 
+                }
+
+                function render_l2(d, key) {
+                    // setup dimensions
+                    const margin = {top: 30, right: 0, bottom: 200, left: 100},
+                        width = 700 - margin.left - margin.right,
+                        height = 400 - margin.top - margin.bottom;
+                    
+                    // munge data
+                    const org = d.key; 
+                    let data_l2 = d3.nest()
+                        .key(function(d) { return d.gname; })
+                        .key(function(d) { return d[key]; })
+                        .rollup(function(v) { return v.length; })
+                        .entries(raw_data)
+                        .filter(d => d.key === org)
+                        .map(d => d.values)[0]; 
+                    
+                    d3.select('#vis-'+key).remove(); 
+
+                    // create level2 svg canvas
+                    svg2 = d3.select(".svg2")
+                        .append("svg")
+                        .attr('id', 'vis-'+key)
+                        .attr("width", width + margin.left + margin.right)
+                        .attr("height", height + margin.top + margin.bottom)
+                        .append("g")
+                        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+                    const keys = Array.from(new Set(raw_data.map(d => d[key]))).sort((a, b) => a - b); 
+                    x.domain(keys)
+                    svg2.append("g")
+                        .attr("class", "x axis")
+                        .attr("transform", "translate(0," + height + ")")
+                        .call(xAxis)
+                        .selectAll("text")
+                        .style("text-anchor", "end")
+                        .style("font-size", "12px")
+                        .attr("dx", "-.8em")
+                        .attr("dy", "-.5em")
+                        .attr("transform", "rotate(-90)" ) 
+                        .call(function(t){                
+                            t.each(function(d){ // for each one
+                                const self = d3.select(this); 
+                                const s = self.text().split('(')[0]; // cut the text after ','
+                                self.text(''); // clear it out
+                                self.text(s); 
+                                
+                            }); 
+                        }) 
+                    
+                    y.domain([0, d3.max(data_l2, function(d) { return d.values; })*1.1]); 
+                    svg2.append("g")
+                        .attr("class", "y axis")
+                        .call(yAxis)
+
+                    // add title
+                    let s = null; 
+                    switch(key) {
+                        case 'weaptype1_txt': 
+                            s = 'Weapon Type'; 
+                            break; 
+                        case 'attacktype1_txt': 
+                            s = 'Attack Type'; 
+                            break; 
+                        case 'targtype1_txt': 
+                            s = 'Target Type'; 
+                            break; 
+                    }; 
+                    svg2.append('text')
+                        .attr('x', width/2)
+                        .attr('y', -margin.top/2)
+                        .attr('text-anchor', 'middle')
+                        .style('font-size', '20px')
+                        .style('text-decoration', 'underline')
+                        .text(org + ' vs ' + s); 
+
+                    // add bars for new data
+                    svg2.selectAll(".bar")
+                        .data(data_l2)
+                        .enter()
+                        .append("rect")
+                        .attr('class', 'bar')
+                        .attr("x", function(d) { return x(d.key); })
+                        .attr("width", x.rangeBand())
+                        .attr("y", function(d) { return y(d.values); })
+                        .attr("height", function(d) { return height - y(d.values); })
+                    
+                        .transition()
+                        .duration(1500)
+                        .attr("y", function(d) { return y(d.values); })
+                        .attr("height", function(d) { return height - y(d.values); }); 
+
+                    // text values
+                    svg2.selectAll('text.bar')
+                        .data(data_l2)
+                        .enter()
+                        .append('text')
+                        .attr('class', 'bar')
+                        .attr("text-anchor", "middle")
+                        .attr('x', function(d) { return x(d.key) + x.rangeBand()/2; })
+                        .attr('y', function(d) { return y(d.values); })
+                        .text(function(d) { return d.values;})
+                        .style('font-weight', 'bold')
+                        .style('font-size', '14px')
+                        .style("fill", 'black');
+                }
+            };
+
+            // initial data
+            const initialData = data_l1.map(d => {
+                    return {
+                        key: d.key, 
+                        values: d.values[params.option]
+                    }; 
+                })
+                .sort(function(x, y){
+                    return d3.descending(x.values, y.values);
+                })
+                .slice(0, params.topN); 
+                
+                updateBars(initialData, params.option);
+            
+            // Handler for dropdown value change
+            function dropdownChange() {
+                params.option = d3.select(this).property('value'); 
+
+                newData = data_l1.map(d => {
+                        return {
+                            key: d.key, 
+                            values: d.values[params.option]
+                        }; 
+                    })
+                    .sort(function(x, y){
+                        return d3.descending(x.values, y.values);
+                    })
+                    .slice(0, params.topN); 
+                
+                updateBars(newData, params.option);
+            };
+
+            const dropdown = d3.select(".svg1")
+                .insert("select", "svg")
+                .on("change", dropdownChange);
+
+            dropdown.selectAll("option")
+                .data(options)
+                .enter()
+                .append("option")
+                .attr("value", function (d) { return d; })
+                .text(function (d) {
+                    return d; 
+                });
+
+            // Handler for input value change
+            function inputChange() {
+                params.topN = d3.select(this).property('value'); 
+                
+                newData = data_l1.map(d => {
+                        return {
+                            key: d.key, 
+                            values: d.values[params.option]
+                        }; 
+                    })
+                    .sort(function(x, y){
+                        return d3.descending(x.values, y.values);
+                    })
+                    .slice(0, params.topN); 
+
+                updateBars(newData, params.option);
+            }
+
+            const topNdropdown = d3.select(".svg1")
+                .insert("select", "svg")
+                .on("change", inputChange); 
+            
+            topNdropdown.selectAll("option")
+                .data(topNs)
+                .enter()
+                .append("option")
+                .attr("value", function (d) { return d; })
+                .text(function (d) {
+                    return 'Top ' + d; 
+                });
+        }
+    </script>
+</body>
