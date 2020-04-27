@@ -7,6 +7,7 @@
         <script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
         <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
         <link rel="stylesheet" href="//rawgithub.com/Caged/d3-tip/master/examples/example-styles.css">
+        
 
     </head>
 
@@ -65,18 +66,22 @@
         }
 
     </style>
-
+            <script src="https://d3js.org/d3.v4.min.js"></script>
+            <script src="d3-tip.js"></script>
     <body>
         <script type="text/javascript">
+        
         
             //Dimensions of graph
             var w = 850;
             var h = 550;
-            var padding = 20;
+            var padding = 40;
 
-            var bar_w = 475;
+            var bar_w = 450;
             var bar_h = 550;
-            var bar_padding = 20;
+            var bar_padding = 40;
+
+            
 
             //Append svg object
             var svg = d3.select("body")
@@ -84,14 +89,9 @@
                         .attr("width", w)
                         .attr("height", h)
                         .append("g")
-                        .attr("transform", "translate(20, 40)");
+                        .attr("transform", "translate(40, 40)");
             
-            var svg_bar = d3.select("body")
-                            .append("svg")
-                            .attr("width", bar_w)
-                            .attr("height", bar_h)            
-                            .append("g")
-                            .attr("transform", "translate(60, 40)");
+
             
             //Read data
             d3.csv("gtdabridged.csv", function(data) {
@@ -99,10 +99,16 @@
 
                 //Count how many times there are attacks per month each year
                 var countObj = {};
+                var data_by_yr_month = {};
+                var count_by_bin_month = {};
                 var largest = 0;
+                var largest_bin = 0;
                 data.forEach(function(d) {
+                    var bin = -1;
                     var yr = d.iyear;
                     var mnth = d.imonth;
+                    
+
                     if (countObj[yr+" "+mnth] == undefined) {
                         countObj[yr+" "+mnth] = 1;
                     } else {
@@ -110,8 +116,60 @@
                     }
                     if (countObj[yr+" "+mnth] > largest)
                         largest = countObj[yr+" "+mnth];
+                    
+                   
+                    if(1970 <= d.iyear && d.iyear < 1975)
+                        bin = 1;
+                    else if(1975 <= d.iyear && d.iyear < 1980)
+                        bin = 2;
+                    else if(1980 <= d.iyear && d.iyear < 1985)
+                        bin = 3;
+                    else if(1985 <= d.iyear && d.iyear < 1990)
+                        bin = 4;
+                    else if(1990 <= d.iyear && d.iyear < 1995)
+                        bin = 5;
+                    else if(1995 <= d.iyear && d.iyear < 2000)
+                        bin = 6;
+                    else if(2000 <= d.iyear && d.iyear < 2005)
+                        bin = 7;
+                    else if(2005 <= d.iyear && d.iyear < 2010)
+                        bin = 8;
+                    else if(2010 <= d.iyear && d.iyear < 2015)
+                        bin = 9;
+                    else 
+                        bin = 10;
+
+                    if (typeof(data_by_yr_month[bin+" "+d.imonth]) == 'undefined') {
+                        data_by_yr_month[bin+" "+d.imonth] = [];
+                    }
+                    (data_by_yr_month[bin+" "+d.imonth]).push(d);
+
+                    if (count_by_bin_month[bin+" "+d.imonth] == undefined) {
+                        count_by_bin_month[bin+" "+d.imonth] = 1;
+                    } else {
+                        count_by_bin_month[bin+" "+d.imonth] += 1;
+                    }
+                    if (count_by_bin_month[bin+" "+d.imonth] > largest_bin)
+                        largest_bin = count_by_bin_month[bin+" "+d.imonth]
+                    
                 });
-                // console.log(countObj)
+
+                var svg_bar = d3.select("body")
+                            .append("svg")
+                            .attr("width", bar_w)
+                            .attr("height", bar_h)            
+                            .append("g")
+                            .attr("transform", "translate(60, 40)");
+                    
+                var tip = d3.tip()
+                .attr('class', 'd3-tip')
+                .offset([-10, 0])
+                .html(function(d) {
+                    return "<strong>Attacks:</strong> <span style='color:red'>" + d + "</span>";
+                });
+
+                svg_bar.call(tip)
+
                 //Add axes
                 var xScale = d3.scaleLinear()
                     .domain([1970, 2018])
@@ -145,16 +203,10 @@
 
 
                     svg_bar.selectAll("*").remove();
-                    // var tip = d3.tip()
-                    //             .attr('class', 'd3-tip')
-                    //             // .offset([-10, 0])
-                    //             .html(function(d) {
-                    //                 return "<strong>Attak count:</strong> <span style='color:red'>" + d.value + "</span>";
-                    //             })
-                    // svg_bar.call(tip);
-                    
+
+                    console.log("largest" + largest)
                     var xScaleBar = d3.scaleLinear()
-                                        .domain([1, largest])
+                                        .domain([1, largest_bin])
                                         .range([0, (bar_w-2*bar_padding)]);
                     let xAxisGeneratorBar = d3.axisBottom(xScaleBar);
                     xAxisGeneratorBar.ticks(10)
@@ -166,7 +218,24 @@
                                     .domain([0,12])
                                     .range([(bar_h-3*bar_padding), 0]);
                     svg_bar.append("g").call(d3.axisLeft(yScaleBar));
-                    // var filteredData = None
+                    
+                    svg_bar.append("text")
+                    .attr("transform", "translate(" + (bar_w/2) + ", " + (bar_h-bar_padding-25) + ")")
+                    .style("text-anchor", "middle")
+                    .text("ATTACK COUNT");
+                    svg_bar.append("text")
+                    .attr("transform", "rotate(-90)")
+                    .attr("y", 0 - 30)
+                    .attr("x", 0 - (bar_h/2)+10)
+                    .style("text-anchor", "middle")
+                    .text("MONTH")
+                    .attr("transform", "translate(" + (bar_w/2 + 50) + ", " + (bar_h-bar_padding-500) + ")")
+                    .style("text-anchor", "middle")
+                    .text(low_year + " - " + high_year);
+
+                    var selected_month;
+
+                    
                     svg_bar.selectAll("rect")
                             .data(attackCount)
                             .enter()
@@ -174,28 +243,47 @@
                             .attr("class", "bar")
                             .attr("x",10)
                             .attr("y",function(d,i){
-                                // console.log(i*40);
-                                return i *40; //Bar y position of i * 10 
+
+                                return i *35; //Bar y position of i * 10 
                             })
                             .attr("width",function (d){
-                                return d/20; //Bar width of d * 10 
+                                
+                                return ((d/largest_bin)*370) ; //Bar width of d * 10 
                             })
-                            .attr("height", 35)
+                            .attr("height", 30)
 
-                            .on("mouseover", function() {
-                                var month = 12 - (Math.floor(d3.mouse(d3.event.target)[1]/40));
+                            .on("mouseover", function(d) {
+                                tip.show(d)
+                                selected_month = 12 - (Math.floor(d3.mouse(d3.event.target)[1]/35));
                                 
                                 d3.select(this)
                                     .attr("fill", "red");
-                                     filteredData = data.filter(function(d){ 
-                                        if( d.iyear > low_year && d.iyear < high_year && d.imonth == month)
-                                            { 
-                                                return d;
-                                            } 
-                                        })
+
+                                    if(low_year == 1970)
+                                        bin = 1;
+                                    else if(low_year == 1975)
+                                        bin = 2;
+                                    else if(low_year == 1980)
+                                        bin = 3;
+                                    else if(low_year == 1985)
+                                        bin = 4;
+                                    else if(low_year == 1990)
+                                        bin = 5;
+                                    else if(low_year == 1995)
+                                        bin = 6;
+                                    else if(low_year == 2000)
+                                        bin = 7;
+                                    else if(low_year == 2005)
+                                        bin = 8;
+                                    else if(low_year == 2010)
+                                        bin = 9;
+                                    else if(low_year == 2015)
+                                        bin = 10;
+
+
                                         svg.append("g")
                                             .selectAll("dot")
-                                            .data(filteredData)
+                                            .data(data_by_yr_month[bin+" "+ selected_month])
                                             .enter()
                                             .append("circle")
                                             .attr("cx", function(d) { 
@@ -211,17 +299,34 @@
                                     
                                 })
                             .on("mouseout", function(d, i) {
+                                tip.hide(d)
                                 d3.select(this)
                                     .attr("fill", "black");
-                                    var filteredData = data.filter(function(d){ 
-                                        if( d.iyear > low_year && d.iyear < high_year )
-                                            { 
-                                                return d;
-                                            } 
-                                        })
+
+                                    if(low_year == 1970)
+                                        bin = 1;
+                                    else if(low_year == 1975)
+                                        bin = 2;
+                                    else if(low_year == 1980)
+                                        bin = 3;
+                                    else if(low_year == 1985)
+                                        bin = 4;
+                                    else if(low_year == 1990)
+                                        bin = 5;
+                                    else if(low_year == 1995)
+                                        bin = 6;
+                                    else if(low_year == 2000)
+                                        bin = 7;
+                                    else if(low_year == 2005)
+                                        bin = 8;
+                                    else if(low_year == 2010)
+                                        bin = 9;
+                                    else if(low_year == 2015)
+                                        bin = 10;
+
                                     svg.append("g")
                                             .selectAll("dot")
-                                            .data(filteredData)
+                                            .data(data_by_yr_month[bin+" "+selected_month])
                                             .enter()
                                             .append("circle")
                                             .attr("cx", function(d) { 
@@ -234,24 +339,23 @@
                                                 return sqrt(countObj[d.iyear+" "+d.imonth]);
                                             })
                                             .style("fill", "#69b3a2");
-                                });
-
-                    // console.log(attackCount)
+                                           
+                                        });
                     })
 
                 svg.append("g")
                     .call(d3.axisLeft(yScale));
 
                 svg.append("text")
-                    .attr("transform", "translate(" + (w/2) + ", " + (h-padding) + ")")
+                    .attr("transform", "translate(" + (w/2) + ", " + (h-padding-15) + ")")
                     .style("text-anchor", "middle")
-                    .text("Month");
+                    .text("YEAR");
                 svg.append("text")
                     .attr("transform", "rotate(-90)")
                     .attr("y", 0 - 30)
-                    .attr("x", 0 - (h/2))
+                    .attr("x", 0 - (h/2)+10)
                     .style("text-anchor", "middle")
-                    .text("Year");
+                    .text("MONTH");
 
                 //Dot size scale
                 var sqrt = d3.scalePow()
