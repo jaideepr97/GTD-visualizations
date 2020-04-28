@@ -159,7 +159,8 @@ var legend = d3.legendColor()
     .shapePadding(5)
     .scale(colorScale);
 svg.select(".legendThreshold")
-    .call(legend);
+    .call(legend)
+    .raise();
 
 // Load external data and boot
 d3.queue()
@@ -172,13 +173,13 @@ d3.queue()
     .defer(d3.csv, "GlobalTerrorismData.csv", function(d) { data.set(d.states, +d.countStates); })
     .awaitAll(ready);
 
-console.log(data)
+// console.log(data)
 
 function ready(error, results) {
     if (error) throw error;
 
     var  countries = results[0].features;
-    console.log(results[2])
+    // console.log(results[2])
     var states = topojson.feature(results[1], results[1].objects.us).features;
     var statesIndia = topojson.feature(results[2], results[2].objects.IND_adm1).features;
     var statesChina = topojson.feature(results[3], results[3].objects.CHN_adm1).features ;
@@ -377,13 +378,6 @@ var statePaths = svg.selectAll(".state")
       .enter().append("path")
       .attr("fill", function(d) { 
           d.countStates = data.get(d.properties.name) || 0;
-          if(d.properties.name=="Hawai"){
-             
-          }
-            // if (d.count==0){
-            //     console.log(d.properties.name)
-            // }
-           
             // Set the color
             return colorScaleStates(d.countStates);})
       .on("click", countryzoom)
